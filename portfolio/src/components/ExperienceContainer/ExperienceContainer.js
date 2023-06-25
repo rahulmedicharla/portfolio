@@ -1,26 +1,26 @@
 import uniqid from 'uniqid'
 import GitHubIcon from '@mui/icons-material/GitHub'
 import LaunchIcon from '@mui/icons-material/Launch'
-import './ProjectContainer.css'
+import './ExperienceContainer.css'
 
-const ProjectContainer = ({ project }) => (
-  <div className='project'>
-    <h3>{project.name}</h3>
-
-    <p className='project__description'>{project.description}</p>
-    {project.stack && (
-      <ul className='project__stack'>
-        {project.stack.map((item) => (
-          <li key={uniqid()} className='project__stack-item'>
+const ExperienceContainer = ({ exp }) => (
+  <div className='experience'>
+    <h3>{exp.name}</h3>
+    <p className='experience__description'>{exp.date}</p>
+    <p className='experience__description'>{exp.description}</p>
+    {exp.stack && (
+      <ul className='experience__stack'>
+        {exp.stack.map((item) => (
+          <li key={uniqid()} className='experience__stack-item'>
             {item}
           </li>
         ))}
       </ul>
     )}
 
-    {project.sourceCode && (
+    {exp.sourceCode && (
       <a
-        href={project.sourceCode}
+        href={exp.sourceCode}
         aria-label='source code'
         className='link link--icon'
         target="_blank"
@@ -30,9 +30,9 @@ const ProjectContainer = ({ project }) => (
       </a>
     )}
 
-    {project.livePreview && (
+    {exp.livePreview && (
       <a
-        href={project.livePreview}
+        href={exp.livePreview}
         aria-label='live preview'
         className='link link--icon'
         target="_blank"
@@ -44,4 +44,4 @@ const ProjectContainer = ({ project }) => (
   </div>
 )
 
-export default ProjectContainer
+export default ExperienceContainer
