@@ -1,0 +1,21 @@
+.background{
+  background: linear-gradient(135deg, rgba(241, 182, 154, 0.68) 0%, rgba(202, 151, 122, 0.68) 11.98%, rgba(166, 115, 94, 0.68) 25%, rgba(125, 73, 61, 0.68) 50.52%, rgba(100, 47, 40, 0.68) 76.04%, rgba(67, 14, 14, 0.68) 100%);
+  min-width: 100vw;
+  min-height: 100vh;
+  background-position: fixed;
+  padding: 10px 25px;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+}
+
+.content {
+  padding: 20px;
+}
+
+.nav{
+  position: fixed;
+  right: 30px;
+}
