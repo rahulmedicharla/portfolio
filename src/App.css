@@ -19,3 +19,9 @@
   position: fixed;
   right: 30px;
 }
+
+@media (max-width: 768px) {
+  .nav{
+    right: 0px;
+  }
+}

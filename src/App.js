@@ -1,7 +1,7 @@
 import './App.css';
 import { content } from './contents';
 import Navigation from './components/Nav/Navigation';
-import Landing from './components/landing/Landing';
+import Landing from './components/Landing/Landing';
 
 function App() {
   return (

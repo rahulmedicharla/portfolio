@@ -1,5 +1,3 @@
-
-
 export default function Landing({id}) {
     return (
         <div id="landing">

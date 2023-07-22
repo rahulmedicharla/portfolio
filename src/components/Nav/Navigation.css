@@ -3,6 +3,7 @@
     flex-direction: column;
     height: 90vh;
     justify-content: space-between;
+    align-items: flex-end;
 }
 
 .links{
@@ -19,27 +20,45 @@ a{
     margin: 5px;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
+    transition: color .5s ease-in-out;
 }
 
-@keyframes fadeIn {
-    0% {
-        color: #E6E6E6;
-        border: none;
-    }
-    100% {
-        color: #4D4D4D;
-        border-bottom: 3px solid #4D4D4D;
-    }
-}
-
-a:hover{
-    /* //border-bottom: 3px solid #B3B3B3; */
-    animation: fadeIn 0.3s ease-in-out;
+.links a:hover{
     color: #4D4D4D;
-    border-bottom: 3px solid #4D4D4D;
 }
 
 .contactIcons{
     margin-top: 25px;
     color: #E6E6E6;
+    transition: color .5s ease-in-out;
+}
+
+.contactIcons a:hover{
+    color: #4D4D4D;
+}
+
+/* adding media elements to dynamics change image and font size based on screen size*/
+@media (max-width: 768px) {
+    .navContainer{
+        justify-content: space-between;
+    }
+
+    .links{
+        align-items: center;
+        margin: 0px;
+    }
+
+    a{
+        font-size: small;
+    }
+
+    img{
+        max-width: 70% !important;
+        height: auto;
+        border: 1px solid black;
+    }
+
+    .contactIcons{
+        margin-top: 0;
+    }
 }
