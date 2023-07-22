@@ -1,0 +1,112 @@
+.landing{
+    width: fit-content;
+    font-weight: 700;
+    color: rgba(252, 244, 219, 0.65);
+    height: auto;
+    justify-content: space-evenly;
+}
+
+.title{
+    font-size: 4.5rem;
+}
+
+.name{
+    color: #6A6AE4
+}
+
+.description{
+    font-size: 2.5rem;
+}
+
+.spacing{
+    margin: 50px 100px;
+}
+
+.hoverButton{
+    width: fit-content;
+    padding: 20px 35px;
+    font-size: 1.8rem;
+    border: 4px solid #6A6AE4;
+    background: rgba(179, 195, 255, 0.47);
+    color: rgba(252, 244, 219, 0.65);
+    transition: color 0.5s ease, background-color 0.5s ease, border 0.5s ease;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.hoverButton:hover{
+    background-color: #E6E6E6;
+    color: #4D4D4D;
+    border: 4px solid rgba(252, 244, 219, 0.65);
+}
+
+#role {
+    width: 24ch;
+    animation: typing 2.5s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 4px solid #6A6AE4;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+    
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
+}
+
+
+@media (max-width: 576px) {
+    /* Change the breakpoint (576px) to your preferred size for mobile devices */
+    .landing{
+        font-weight: 300;
+    }
+    
+    .title{
+        font-size: 2rem;
+    }
+    
+    .name{
+        color: #6A6AE4
+    }
+    
+    .description{
+        font-size: 1.1rem;
+        border: 1px solid red;
+    }
+    
+    .spacing{
+        margin: 25px 0px;
+    }
+    
+    .hoverButton{
+        padding: 5px 10px;
+        font-size: 1rem;
+        border: 2px solid #6A6AE4;
+        background: rgba(179, 195, 255, 0.47);
+        color: rgba(252, 244, 219, 0.65);
+        transition: color 0.5s ease, background-color 0.5s ease, border 0.5s ease;
+    }   
+
+    .hoverButton:hover{
+        background-color: #E6E6E6;
+        color: #4D4D4D;
+        border: 2px solid rgba(252, 244, 219, 0.65);
+    }
+
+    #role {
+        width: 23ch;
+        animation: typing 2.5s steps(22), blink .5s step-end infinite alternate;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 2px solid #6A6AE4;
+    }
+
+  }

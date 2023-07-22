@@ -27,9 +27,10 @@
 }
 
 .navContainer{
-    margin-top: 500px;
     display: flex;
     flex-direction: column;
+    height: 75vh;
+    justify-content: flex-end;
     position: fixed;
 }
 
