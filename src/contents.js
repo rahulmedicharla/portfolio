@@ -1,5 +1,5 @@
 export const content = {
-    anchorTags: ["#landing", "#about", "#experience", "#creations", "#articles", "#contact"],
+    anchorTags: ["home", "about", "experience", "creations", "articles", "contact"],
     links: {
         email: "mailto:medicharla.2@osu.edu",
         github: "https://github.com/rahulmedicharla",

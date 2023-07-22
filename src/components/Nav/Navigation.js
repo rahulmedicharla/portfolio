@@ -1,25 +1,23 @@
 import React from "react";
-import logo from "../../assets/logo.png";
+import { Nav, NavLink} from "react-bootstrap";
 import "./Navigation.css";
 import { GitHub, LinkedIn, Email } from "@mui/icons-material";
 
-export default function Navigation({anchorTags, links}){
+export default function Navigation({anchorTags, links}) {
     return (
-        <div className="navContainer">
-            <img src={logo} width={150} alt="-"/>
-            <div className="links">
-                <a href={anchorTags[0]}>/home</a>
-                <a href={anchorTags[1]}>/about</a>
-                <a href={anchorTags[2]}>/experience</a>
-                <a href={anchorTags[3]}>/creations</a>
-                <a href={anchorTags[4]}>/articles</a>
-                <a href={anchorTags[5]}>/contact</a>
-                <div className="contactIcons">
-                    <a href={links.email} target="_blank" rel="noreferrer"><Email /></a>
-                    <a href={links.github} target="_blank" rel="noreferrer"><GitHub /></a>
-                    <a href={links.linkedin} target="_blank" rel="noreferrer"><LinkedIn /></a>
+        <div className="navContainer align-items-center">
+            <Nav className="d-flex flex-column align-items-end linkContainer">
+                {anchorTags.map((tag, index) => {
+                    return (
+                        <NavLink className="text navLinks" key={index} href={"#" + tag}>/{tag}</NavLink>
+                    )
+                })}
+                <div className="links">
+                    <a href={links.email} target="_blank" rel="noreferrer" className="linkColor"><Email/></a>
+                    <a href={links.github} target="_blank" rel="noreferrer" className="linkColor"><GitHub/></a>
+                    <a href={links.linkedin} target="_blank" rel="noreferrer" className="linkColor"><LinkedIn/></a>
                 </div>
-            </div>
+            </Nav>
         </div>
     );
 }

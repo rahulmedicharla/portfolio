@@ -1,64 +1,61 @@
-.navContainer{
-    display: flex;
-    flex-direction: column;
-    height: 90vh;
-    justify-content: space-between;
-    align-items: flex-end;
+.navLinks {
+  font-weight: 700;
+  color: #B3C3FF;
+  transition: color 0.3s ease-in-out, border .3s ease;
+  padding: 3px;
+}
+
+.navLinks:hover {
+  color: #E6E6E6;
 }
 
 .links{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.linkColor{
+    color: #B3C3FF;
+    transition: color 0.3s ease-in-out;
+}
+
+.linkColor:hover{
+    color: #E6E6E6;
+}
+
+.navContainer{
+    margin-top: 500px;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    margin-right: 35px;
+    position: fixed;
 }
 
-a{
-    text-decoration: none;
-    color: #E6E6E6;
-    font-size: large;
-    margin: 5px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    transition: color .5s ease-in-out;
+.linkContainer{
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
 }
 
-.links a:hover{
-    color: #4D4D4D;
-}
 
-.contactIcons{
-    margin-top: 25px;
-    color: #E6E6E6;
-    transition: color .5s ease-in-out;
-}
+@media (max-width: 576px) {
+    /* Change the breakpoint (576px) to your preferred size for mobile devices */
+    .linkContainer{
+        display: none;
+        padding: 0px;
+    }
 
-.contactIcons a:hover{
-    color: #4D4D4D;
-}
-
-/* adding media elements to dynamics change image and font size based on screen size*/
-@media (max-width: 768px) {
     .navContainer{
-        justify-content: space-between;
+        height: fit-content;
+    }
+
+    .navLinks {
+      display: none;
     }
 
     .links{
-        align-items: center;
-        margin: 0px;
+        display: none;
     }
-
-    a{
-        font-size: small;
-    }
-
-    img{
-        max-width: 70% !important;
-        height: auto;
-        border: 1px solid black;
-    }
-
-    .contactIcons{
-        margin-top: 0;
-    }
-}
+  }
