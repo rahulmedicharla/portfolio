@@ -41,6 +41,20 @@
 }
 
 
+@media (max-width: 900px) {
+    /* Change the breakpoint (576px) to your preferred size for mobile devices */
+    .linkContainer{
+        padding: 0px;
+    }
+
+    .navContainer{
+        height: 31vh;
+        display: none;
+    }
+}
+
+  
+
 @media (max-width: 576px) {
     /* Change the breakpoint (576px) to your preferred size for mobile devices */
     .linkContainer{
@@ -59,4 +73,4 @@
     .links{
         display: none;
     }
-  }
+}
