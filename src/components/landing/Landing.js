@@ -1,5 +1,6 @@
 import React from "react";
 import "./Landing.css";
+import { Link } from "react-scroll";
 
 export default function Landing({name, description, role, aboutTag}){
     return(
@@ -9,14 +10,14 @@ export default function Landing({name, description, role, aboutTag}){
                 <span className="text title">i'm <span className = "text name">{name}</span></span>
             </div>
             <div className="spacing">
-                <span className="text description">{description}</span><br/>
-                <div className="text description" id = "role">{role}</div>
+                <span className="text description-big">{description}</span><br/>
+                <div className="text description-small" id = "role">{role}</div>
             </div>
-            <a href={"#" + aboutTag}>
+            <Link to={aboutTag} smooth>
                 <div className="spacing hoverButton">
                     <span>learn more about me!</span>
                 </div>
-            </a>
+            </Link>
         </div>
     )
 }

@@ -14,3 +14,32 @@ body{
 .downIcon{
     font-size: large;
 }
+
+.sectionTitle{
+    color: #B3C3FF;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.hl{
+    width: 100%;
+    border: 1px solid #B3C3FF;
+    border-radius: 5px;
+}
+
+
+@media (max-width: 900px) {
+    /* Change the breakpoint (576px) to your preferred size for mobile devices */
+    .sectionTitle{
+        font-size: 2rem;
+    }
+
+}
+
+@media (max-width: 576px) {
+    /* Change the breakpoint (576px) to your preferred size for mobile devices */
+    .sectionTitle{
+        font-size: 1.5rem;
+    }
+
+  }

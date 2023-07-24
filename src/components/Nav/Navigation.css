@@ -3,6 +3,7 @@
   color: #B3C3FF;
   transition: color 0.3s ease-in-out, border .3s ease;
   padding: 3px;
+  cursor: pointer;
 }
 
 .navLinks:hover {

@@ -14,9 +14,14 @@
     color: #6A6AE4
 }
 
-.description{
+.description-big{
     font-size: 2.5rem;
 }
+
+.description-small{
+    font-size: 1.5rem;
+}
+
 
 .spacing{
     margin: 50px 0px;
@@ -24,12 +29,13 @@
 
 .hoverButton{
     width: fit-content;
-    padding: 20px 35px;
-    font-size: 1.8rem;
-    background-color: transparent;
-    color: rgba(252, 244, 219, 0.65);
-    border: 3px solid rgba(252, 244, 219, 0.65);
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    background-color: #4D4D4D;
+    color: #B3C3FF;
+    border-radius: 6px;
     transition: color 0.5s ease, background-color 0.5s ease, border 0.5s ease;
+    cursor: pointer;
 }
 
 a:hover{
@@ -37,13 +43,11 @@ a:hover{
 }
 
 .hoverButton:hover{
-    background-color: #4D4D4D;
-    color: #B3C3FF;
-    border: 3px solid #4D4D4D;
+    background-color: #5E5E5E;
 }
 
 #role {
-    width: 24ch;
+    width: 41ch;
     animation: typing 2.5s steps(22), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
@@ -55,7 +59,7 @@ a:hover{
         width: 0;
     }
     to{
-        width: 24ch;
+        width: 41ch;
     }
 }
     
@@ -82,21 +86,25 @@ a:hover{
         color: #6A6AE4
     }
     
-    .description{
-        font-size: 1.8rem;
+    .description-big{
+        font-size: 1.6rem;
+    }
+
+    .description-small{
+        font-size: 1.2rem;
     }
     
     .spacing{
-        margin: 25px 0px;
+        margin: 20px 0px;
     }
     
     .hoverButton{
         padding: 10px 20px;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     #role {
-        width: 23ch;
+        width: 38ch;
         border-right: 2px solid #6A6AE4;
     }
 
@@ -109,15 +117,19 @@ a:hover{
     }
     
     .title{
-        font-size: 2rem;
+        font-size: 1.9rem;
     }
     
     .name{
         color: #6A6AE4
     }
     
-    .description{
-        font-size: 1.1rem;
+    .description-big{
+        font-size: 1.3rem;
+    }
+
+    .description-small{
+        font-size: .8rem;
     }
     
     .spacing{
@@ -130,7 +142,7 @@ a:hover{
     }
 
     #role {
-        width: 23ch;
+        width: 38ch;
         border-right: 2px solid #6A6AE4;
     }
 

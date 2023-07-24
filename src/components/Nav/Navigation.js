@@ -1,7 +1,8 @@
 import React from "react";
-import { Nav, NavLink} from "react-bootstrap";
+import { Nav} from "react-bootstrap";
 import "./Navigation.css";
 import { GitHub, LinkedIn, Email } from "@mui/icons-material";
+import { Link} from "react-scroll";
 
 export default function Navigation({anchorTags, links}) {
     return (
@@ -9,7 +10,7 @@ export default function Navigation({anchorTags, links}) {
             <Nav className="d-flex flex-column align-items-end linkContainer">
                 {anchorTags.map((tag, index) => {
                     return (
-                        <NavLink className="text navLinks" key={index} href={"#" + tag}>/{tag}</NavLink>
+                        <Link to={tag} smooth activeClass="active" key={index}><div className="text navLinks">/{tag}</div></Link>
                     )
                 })}
                 <div className="links">
