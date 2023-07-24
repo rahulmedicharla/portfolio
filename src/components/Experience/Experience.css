@@ -1,0 +1,205 @@
+.activeExp{
+    margin-top: 75px;
+    justify-content: center;
+    animation: slide 0.5s ease-in-out;
+}
+
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translatey(50%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+.activeExpAnimation-enter{
+    opacity: 0;
+    transform: translateY(50%);
+}
+
+.activeExpAnimation-enter-active{
+    opacity: 1;
+    transform: translateY(0%);
+    transition: all .5s ease-in-out;
+}
+
+.activeExpAnimation-exit{
+    display: none;
+    transform: display 0.3s ease-in-out;
+}
+
+.activeExpAnimation-exit-active{
+    opacity: 0;
+    display: none;
+    transform: display 0.3s ease-in-out;
+}
+
+a{
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover{
+    transform: scale(1.1);
+}
+
+.expImage{
+    border-radius: 50px;
+}
+
+.expDes{
+    color: #D4D4D4;
+    font-size: 1.3rem;
+    margin-left: 20px;
+}
+
+.cards{
+    margin-top: 100px;
+    gap: 100px;
+}
+
+.cardC{
+    cursor: pointer;
+    background-color: #4D4D4D;
+    border-radius: 10px;
+    transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
+    flex-direction: column;
+}
+
+.cardC:hover{
+    background-color: #5E5E5E;
+    transform: scale(1.05);
+}
+
+.cardImg{
+    border-radius: 30px;
+    margin: 20px;
+    margin-top: 30px;
+}
+
+.cardContent{
+    margin: 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    width: 100%;
+}
+
+.cardTitle{
+    color: #D4D4D4;
+}
+
+.cardSub{
+    margin-top: 10px;
+    color: #B3B3B3
+}
+
+.cardStack{
+    margin-top: 10px;
+    color: #B3C3FF
+}
+
+
+@media (max-width: 900px) {
+    /* Change the breakpoint (576px) to your preferred size for mobile devices */
+    .activeExp{
+        margin-top: 20px;
+        align-items: center;
+    }
+
+    .expImage{
+        border-radius: 25px;
+        width: 125px;
+    }
+
+    .expDes{
+        margin-top: 15px;
+        text-align: center;
+        font-size: .8rem;
+        margin-left: 10px;
+    }
+
+    .cards{
+        margin-top: 50px;
+        gap: 0px;
+    }
+
+    .cardImg{
+        width: 100px;
+        border-radius: 15px;
+        margin: 15px;
+    }
+
+
+    .cardContent{
+        margin: 15px;
+        align-content: center;
+        justify-content: center;
+        width: 100%
+    }
+
+    .cardTitle{
+        font-size: .8rem;
+    }
+
+    .cardSub{
+        font-size: .6rem;
+    }
+
+    .cardStack{
+        font-size: .6rem;
+    }
+}
+
+@media (max-width: 576px) {
+    /* Change the breakpoint (576px) to your preferred size for mobile devices */
+    .activeExp{
+        margin-top: 40px;
+    }
+
+    .expImage{
+        border-radius: 25px;
+        width: 125px;
+    }
+
+    .expDes{
+        margin-top: 15px;
+        font-size: .8rem;
+        text-align: center;
+    }
+
+    .cards{
+        margin-top: 50px;
+        gap: 0px;
+    }
+
+    .cardC{
+        flex-direction: row;
+        align-items: center;
+        width: 85%;
+        margin-bottom: 20px;
+    }
+
+    .cardImg{
+        width: 80px;
+        border-radius: 15px;
+        margin: 15px;
+    }
+
+    .cardContent{
+        margin: 15px;
+    }
+
+    .cardTitle{
+        font-size: .8rem;
+    }
+
+    .cardSub{
+        font-size: .6rem;
+    }
+
+    .cardStack{
+        font-size: .6rem;
+    }
+}

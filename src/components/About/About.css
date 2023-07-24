@@ -22,17 +22,17 @@
 }
 
 .about{
-    color: #B3B3B3;
+    color: #D4D4D4;
     font-size: 1.3rem;
 }
 
 .skillsText{
-    color: #B3B3B3;
+    color: #D4D4D4;
     font-size: 1.2rem;
 }
 
 .skillsC{
-    margin-top: 20px;
+    margin-top: 35px;
     margin-right: 80px;
 }
 
@@ -112,6 +112,7 @@
     }
 
     .about{
+        text-align: center;
         font-size: .8rem;
     }
 

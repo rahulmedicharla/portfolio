@@ -35,7 +35,7 @@ function App() {
       <About about = {content.about} links = {content.links} tag = {content.anchorTags[1]} leadership={content.leadership} skills={content.skills}/>
 
       {/* experience section */}
-      <Experience tag = {content.anchorTags[2]}/>
+      <Experience tag = {content.anchorTags[2]} exp={content.experience}/>
       
     </Container>
   );

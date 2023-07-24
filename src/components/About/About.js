@@ -13,8 +13,7 @@ export default function About({links, about, tag, leadership, skills}){
                 </Col> 
             </Row>
             <Row>
-                <Col xs={1} md={1} lg={1}></Col>
-                <Col xs={10} md={10} lg={9} className="d-flex align-items-center flex-row-reverse">
+                <Col xs={10} md={10} lg={10} className="d-flex align-items-center flex-row-reverse">
                     <a href={links.twitter} className="linkColor bigLinkC"><Twitter className="bigLinks" fontSize="large"/></a>
                     <a href={links.linkedin} className="linkColor bigLinkC"><LinkedIn className="bigLinks" fontSize="large"/></a>
                     <a href={links.github} className="linkColor bigLinkC"><GitHub className="bigLinks" fontSize="large"/></a>
@@ -24,8 +23,8 @@ export default function About({links, about, tag, leadership, skills}){
                     </div></a>
                 </Col>
             </Row>
-            <Row className="mt-5 align-items-center">
-                <Col xs={12} md={3} lg={4} className=" d-flex justify-content-center mb-3">
+            <Row className="mt-5 align-items-center justify-content-center">
+                <Col xs={12} md={3} lg={2} className=" d-flex justify-content-center mb-3">
                     <Image className="headshot" src="/headshot.png" width={250} fluid/>
                 </Col>
                 <Col xs={12} md={8} lg={5} className="d-flex mt-3">
