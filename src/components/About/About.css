@@ -1,0 +1,161 @@
+.button{
+    width: fit-content;
+    padding: 7px 20px;
+    font-size: 1rem;
+    background-color: #4D4D4D;
+    color: #B3C3FF;
+    border-radius: 6px;
+    transition: color 0.5s ease, background-color 0.5s ease, border 0.5s ease;
+    cursor: pointer;
+    animation: slide 0.5s ease-in-out;
+}
+
+.button:hover{
+    background-color: #5E5E5E;
+}
+
+.bigLinkC{
+    margin-left: 20px;
+    animation: slide 0.5s ease-in-out;
+}
+
+.headshot{
+    border-radius: 20px;
+}
+
+.about{
+    color: #D4D4D4;
+    font-size: 1.3rem;
+}
+
+.skillsText{
+    color: #D4D4D4;
+    font-size: 1.2rem;
+}
+
+.skillsC{
+    margin-top: 35px;
+    margin-right: 40px;
+    animation: slide 0.5s ease-in-out;
+}
+
+.skillsIcon{
+    width: 25px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.skillsIcon:hover{
+    animation: spin 1s linear forwards;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@media (max-width: 1200px){
+    .bigLinks{
+        transform: scale(.9);
+    }
+
+    .headshot{
+        border-radius: 20px;
+    }
+
+    .about{
+        font-size: 1rem;
+    }
+
+    .skillsText{
+        font-size: 1rem;
+    }
+
+    .skillsIcon{
+        width: 20px;
+        height: 25px;
+        margin-right: 15px;
+    }
+
+    .skillsC{
+        margin-top: 25px;
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 900px) {
+    /* Change the breakpoint (576px) to your preferred size for mobile devices */
+    .bigLinks{
+        transform: scale(.9);
+    }
+
+    .button{
+        padding: 5px 15px;
+        font-size: .9rem;
+    }
+
+    .headshot{
+        width: 125px;
+    }
+
+    .about{
+        font-size: 1rem;
+    }
+
+    .skillsText{
+        font-size: .9rem;
+    }
+
+    .skillsIcon{
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
+        margin-left: 10px;
+    }
+
+    .skillsC{
+        margin-top: 5px;
+        margin-right: 5px;
+    }
+
+}
+
+@media (max-width: 576px) {
+    /* Change the breakpoint (576px) to your preferred size for mobile devices */
+    .bigLinks{
+        transform: scale(.7);
+    }
+
+    .button{
+        padding: 5px 10px;
+        font-size: .8rem;
+    }
+
+    .bigLinkC{
+        margin-left: 0;
+    }
+
+    .headshot{
+        width: 125px;
+    }
+
+    .about{
+        text-align: center;
+        font-size: .8rem;
+    }
+
+    .skillsText{
+        font-size: .6rem;
+    }
+
+    .skillsIcon{
+        width: 10px;
+        height: 10px;
+        margin-right: 5px;
+    }
+
+}

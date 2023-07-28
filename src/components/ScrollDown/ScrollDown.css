@@ -1,0 +1,27 @@
+.scroll{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px 0px;
+    cursor: pointer;
+    animation: slide 0.5s ease-in-out;
+}
+
+.icon{
+    width: 4rem;
+    height: auto;
+    fill: rgba(252, 244, 219, 0.65)
+}
+
+@media (max-width: 900px) {
+    .scroll{
+        display: none;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .scroll{
+        display:none
+    }
+}

@@ -1,0 +1,175 @@
+.explorationsC{
+    margin-top: 50px;
+}
+
+.contentTitle{
+    color: #FFFFFF;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.contentSubtitle{
+    color: #B3C3FF;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.articleContainer{
+    display: flex;
+    flex-direction: column;
+    border: 1px dashed #D9D9D9;
+    gap: 10px;
+    border-radius: 20px;
+    margin: 20px 10px;
+    background-color: #4D4D4D;
+    transition: all 0.3s ease-in-out;
+}
+
+.articleContainer:hover{
+    background-color: #5E5E5E;
+    transform: scale(1.1);
+}
+
+.linkTitle{
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 10px 20px;
+}
+
+.linkDescription{
+    color: #e4e4e4;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 10px 20px;
+}
+
+
+@media (max-width: 1200px) {
+    /* Change the breakpoint (576px) to your preferred size for mobile devices */
+    .explorationsC{
+        margin-top: 50px;
+    }
+    
+    .contentTitle{
+        font-size: 1.5rem;
+    }
+
+    .articleContainer{
+        gap: 10px;
+    }
+
+    .contentSubtitle{
+        font-size: 1.2rem;
+    }
+
+    .articleContainer{
+        margin: 10px 5px;
+    }
+
+    .linkTitle{
+        font-size: 1rem;
+    }
+
+    .linkDescription{
+        font-size: 0.8rem;
+    }
+}
+
+
+
+@media (max-width: 900px) {
+    /* Change the breakpoint (576px) to your preferred size for mobile devices */
+    .explorationsC{
+        margin-top: 80px;
+    }
+    
+    .contentTitle{
+        font-size: 1.5rem;
+    }
+
+    .articleContainer{
+        gap: 10px;
+    }
+
+    .contentSubtitle{
+        font-size: 1.2rem;
+    }
+
+    .articleContainer{
+        margin: 10px 5px;
+    }
+
+    .linkTitle{
+        font-size: 1rem;
+    }
+
+    .linkDescription{
+        font-size: 0.8rem;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    /* Change the breakpoint (576px) to your preferred size for mobile devices */
+    .explorationsC{
+        margin-top: 50px;
+    }
+    
+    .contentTitle{
+        font-size: 1.5rem;
+    }
+
+    .articleContainer{
+        gap: 10px;
+    }
+
+    .contentSubtitle{
+        font-size: 1.2rem;
+    }
+
+    .articleContainer{
+        margin: 10px 5px;
+    }
+
+    .linkTitle{
+        font-size: 1rem;
+    }
+
+    .linkDescription{
+        font-size: 0.8rem;
+    }
+
+}
+
+@media (max-width: 576px) {
+    /* Change the breakpoint (576px) to your preferred size for mobile devices */
+    .explorationsC{
+        margin-top: 25px;
+    }
+
+    .articleContainer{
+        gap: 0px;
+    }
+    
+    .contentTitle{
+        font-size: 1rem;
+    }   
+
+    .contentSubtitle{
+        font-size: .9rem;
+    }
+
+    .articleContainer{
+        margin: 10px 5px;
+    }
+
+    .linkTitle{
+        font-size: .8rem;
+    }
+
+    .linkDescription{
+        font-size: 0.7rem;
+    }
+
+}

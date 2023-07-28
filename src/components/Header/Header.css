@@ -1,0 +1,15 @@
+.logo{
+    animation: slide 0.5s ease-in-out;
+    display: none;
+}
+
+@media (max-width: 900px) {
+}
+
+@media (max-width: 576px) {
+    .logo{
+        display: inline;
+        width: 100px;
+        margin-top: 50px;
+    }
+}
