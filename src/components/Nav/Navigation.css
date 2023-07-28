@@ -20,7 +20,7 @@
 
 .linkColor{
     color: #B3C3FF;
-    transition: color 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .linkColor:hover{

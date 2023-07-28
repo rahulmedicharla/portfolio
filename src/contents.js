@@ -1,5 +1,5 @@
 export const content = {
-    anchorTags: ["home", "about", "experience", "creations", "articles"],
+    anchorTags: ["home", "about", "experience", "creations", "explorations"],
     links: {
         email: "mailto:medicharla.2@osu.edu",
         github: "https://github.com/rahulmedicharla",
@@ -23,16 +23,16 @@ export const content = {
             date: "May 2023 - current",
             description: `Currently interning at a software consulting company to develop and deploy mobile and web applications to clients. 
             Working with a cross functional team of developers, designers, and PM's to develop a customer support chat bot. 
-            I'm utilizing large language models, vector embeddings, and an SQL database to develop a custom search feature to provide fast semantic search and response and hosted these capabilities on Azure with a custom backend web API built upon the .NET framework.`,
+            I'm utilizing large language models, vector embeddings, and an SQL database to develop a custom search feature to provide fast semantic search and response: hosted on Azure with a custom backend web API built with .NET framework.`,
             stack: "React, C#, SQL, .NET, Azure",
             website: "https://willowtree.ai/",
             tag: 'willowtree',
-            img: '/willowtree.png'
+            img: '/willowtree.png',
         },
         {
             role: "3D Team Member",
             company: "Buckeye Autodrive",
-            date: "Jaunary 2023 - current",
+            date: "Jan 2023 - current",
             description: `A member on Ohio State's premiere Autodrive team aimed to develop a fully autonomous vehicle within the four year span of the SAE Autodrive Challenge amongst universities. 
             I tested and visualized a 3D Object Tracking model to track vehicles and pedestrians. 
             I also created a 3D dynamics module to get the real time speed, direction, and orientation of moving objects relative to our vehicle and integrated it into the pipeline.`,
@@ -42,9 +42,9 @@ export const content = {
             img: '/buckeye_autodrive.png'
         },
         {
-            role: "Application Dev Intern",
+            role: "App Dev Intern",
             company: "TOYMAKERS",
-            date: "June 2022 - August 2022",
+            date: "June - August 2022",
             description: `Developed Bubble, a React Native application to make event organization with friends simple. 
             Displays the real-time location of your friends and current events onto a map using Google Cloud's realtime database and Google Places API. 
             This unique platform enables meeting new people through a unique friends of friends RSVP mechanism for events.`,
@@ -54,4 +54,47 @@ export const content = {
             img: '/toymakers.png'
         }
     ],
+    creations: [
+        {
+            name: "evolate",
+            date: 'June - July 2023',
+            description: `evolate is a new data structure built to solve the problem of efficiency within search algorithms. 
+            Depending on a user's behavioral patterns, Linked Lists, Sequences, Hash Maps, or Binary Search Trees may be more efficient. 
+            Ex. Consistent searching at the beginning indices of a data structure would be most efficient with a Linked List. 
+            evolate is designed on a multi-modal node object and utilizing a custom Neural Network, evolate automatically tracks behavioral patterns such as insertion/deletion frequencies and search predictability to switch data structures thus optimizing efficiency.
+            `,
+            stack: "Python, Pytorch Neural Network",
+            github: "https://github.com/rahulmedicharla/evolate",
+            live: null,
+            img: "/evolate.png",
+            video: 'evolate.mp4'
+        },
+        {
+            name: "mood.ai",
+            date: 'March - May 2023',
+            description: `mood.ai is an application designed to capture the essence of moments and memories as AI generated art. 
+            Most memories are currently stored as pictures and videos. 
+            This program decomposes that media to its essential components using Machine Learning such as Object Detection, Emotion Detection, Sentiment Analysis, Audio Detection, etc... 
+            The program then uses large language and stable diffusion models to recompose the memory as AI generated art.
+            `,
+            stack: "Python, React, Docker, GCP, ML",
+            github: "https://github.com/rahulmedicharla/mood.ai",
+            live: "https://mood-ai-coral.vercel.app/",
+            img: "/moodai.png",
+            video: 'mood-ai.mp4'
+        },
+        {
+            date: 'October 2023',
+            name: "Audio Studio (Hackathon)",
+            description: `Developed a custom speech to code IDE to make programming more accessible. 
+            The program would take in natural language commands, transcribe it, and convert it to runnable python code. 
+            We created a nested recursive representation of the code with CFG's and outputted text onto the custom IDE that can run functional python code through voice commands.
+            `,
+            stack: "Python, Speech Recognition, OOP",
+            github: "https://github.com/rahulmedicharla/HackOhio2022",
+            live: null,
+            img: "/default.png",
+            video: 'audio_studio.mp4'
+        }
+    ]
 }

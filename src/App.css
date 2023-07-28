@@ -7,6 +7,14 @@ body{
     overflow-x: auto;
 }
 
+.mainLogoContainer{
+    animation: slide 0.5s ease-in-out;
+}
+
+.mainContent{
+    margin-top: 100px;
+}
+
 .text{
     font-family: 'Open Sans', sans-serif;
 }
@@ -33,6 +41,9 @@ body{
     .sectionTitle{
         font-size: 2rem;
     }
+    .mainContent{
+        margin-top: 50px;
+    }
 
 }
 
@@ -40,6 +51,12 @@ body{
     /* Change the breakpoint (576px) to your preferred size for mobile devices */
     .sectionTitle{
         font-size: 1.5rem;
+    }
+    .mainContent{
+        margin-top: 0px;
+    }
+    .mainLogoContainer{
+        display: none;
     }
 
   }

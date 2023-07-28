@@ -7,6 +7,7 @@
     border-radius: 6px;
     transition: color 0.5s ease, background-color 0.5s ease, border 0.5s ease;
     cursor: pointer;
+    animation: slide 0.5s ease-in-out;
 }
 
 .button:hover{
@@ -15,6 +16,7 @@
 
 .bigLinkC{
     margin-left: 20px;
+    animation: slide 0.5s ease-in-out;
 }
 
 .headshot{
@@ -33,7 +35,8 @@
 
 .skillsC{
     margin-top: 35px;
-    margin-right: 80px;
+    margin-right: 40px;
+    animation: slide 0.5s ease-in-out;
 }
 
 .skillsIcon{

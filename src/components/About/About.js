@@ -13,7 +13,7 @@ export default function About({links, about, tag, leadership, skills}){
                 </Col> 
             </Row>
             <Row>
-                <Col xs={10} md={10} lg={10} className="d-flex align-items-center flex-row-reverse">
+                <Col xs={11} md={11} lg={10} className="d-flex align-items-center flex-row-reverse">
                     <a href={links.twitter} className="linkColor bigLinkC"><Twitter className="bigLinks" fontSize="large"/></a>
                     <a href={links.linkedin} className="linkColor bigLinkC"><LinkedIn className="bigLinks" fontSize="large"/></a>
                     <a href={links.github} className="linkColor bigLinkC"><GitHub className="bigLinks" fontSize="large"/></a>
@@ -25,14 +25,14 @@ export default function About({links, about, tag, leadership, skills}){
             </Row>
             <Row className="mt-5 align-items-center justify-content-center">
                 <Col xs={12} md={3} lg={2} className=" d-flex justify-content-center mb-3">
-                    <Image className="headshot" src="/headshot.png" width={250} fluid/>
+                    <Image className="headshot" src="/headshot.jpg" width={250} fluid/>
                 </Col>
-                <Col xs={12} md={8} lg={5} className="d-flex mt-3">
+                <Col xs={12} md={8} lg={6} className="d-flex mt-3">
                     <p className="text about">{about}<br/><b>{leadership}</b></p>
                 </Col>
             </Row>
-            <Row>
-                <Col xs={12} md={12} lg={10} className="d-flex align-items-center justify-content-end">
+            <Row className="d-flex align-items-center justify-content-center" >
+                <Col xs={12} md={12} lg={10} className="d-flex align-items-center justify-content-center">
                     {skills.map((skill, index) => {
                         return(
                             <div key={index} className="d-flex flex-row align-items-center justify-content-center skillsC">

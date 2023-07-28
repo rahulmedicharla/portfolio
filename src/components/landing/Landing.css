@@ -4,6 +4,7 @@
     color: rgba(252, 244, 219, 0.65);
     height: auto;
     justify-content: space-evenly;
+    animation: slide 0.7s ease-in-out;
 }
 
 .title{
@@ -36,6 +37,7 @@
     border-radius: 6px;
     transition: color 0.5s ease, background-color 0.5s ease, border 0.5s ease;
     cursor: pointer;
+    animation: slide 0.5s ease-in-out;
 }
 
 a:hover{
