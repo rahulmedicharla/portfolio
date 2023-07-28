@@ -41,6 +41,12 @@
     padding: 10px;
 }
 
+@media (max-width: 1200px){
+    .navLinks{
+        font-size: .9rem;
+    }
+}
+
 
 @media (max-width: 900px) {
     /* Change the breakpoint (576px) to your preferred size for mobile devices */

@@ -74,7 +74,6 @@ a:hover{
 
 .cards{
     margin-top: 100px;
-    gap: 100px;
 }
 
 .cardC{
@@ -118,6 +117,57 @@ a:hover{
     text-align: center;
 }
 
+@media (max-width: 1200px){
+    .activeExp{
+        margin-top: 50px;
+    }
+
+    .expImage{
+        border-radius: 25px;
+        width: 125px;
+    }
+
+    .expTitle{
+        font-size: 1.1rem;
+    }
+
+    .expDes{
+        margin-top: 15px;
+        font-size: .9rem;
+        text-align: center;
+    }
+
+    .cards{
+        margin-top: 50px;
+        gap: 0px;
+    }
+
+    .cardImg{
+        width: 100px;
+        border-radius: 15px;
+        margin: 15px;
+    }
+
+    .cardContent{
+        margin: 15px;
+        align-content: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .cardTitle{
+        font-size: 1rem;
+    }
+
+    .cardSub{
+        font-size: .8rem;
+    }
+
+    .cardStack{
+        font-size: .8rem;
+    }
+}
+
 
 @media (max-width: 900px) {
     /* Change the breakpoint (576px) to your preferred size for mobile devices */
@@ -153,12 +203,11 @@ a:hover{
         margin: 15px;
     }
 
-
     .cardContent{
         margin: 15px;
         align-content: center;
         justify-content: center;
-        width: 100%
+        width: 100%;
     }
 
     .cardTitle{

@@ -6,6 +6,7 @@
 
 .activeCreation{
     justify-content: flex-start;
+    align-items: center;
     animation: slide 0.5s ease-in-out;
     max-height: 100%;
     height: 100%;
@@ -112,6 +113,49 @@
 
 .button:hover{
     background-color: #5E5E5E;
+}
+
+@media (max-width: 1200px){
+    .creationsC{
+        height: 650px;
+    }
+
+    .creationImage{
+        width: 150px;
+    }
+
+    .creationImagePhone{
+        width: 120px;
+    }
+
+    .creationImageC{
+        height: 600px;
+    }
+
+    .activeCreationVideo{
+        width: 600px;
+    }
+
+    .creationTitle{
+        font-size: 1.3rem;
+    }
+
+    .creationDes{
+        font-size: 1.1rem;
+    }
+
+    .creationDate{
+        font-size: 1.1rem;
+    }
+
+    .creationStack{
+        font-size: 1.1rem;
+    }
+
+    .button{
+        font-size: 1rem;
+        padding: 7px 12px;
+    }
 }
 
 

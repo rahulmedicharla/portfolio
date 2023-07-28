@@ -45,8 +45,12 @@
 }
 
 
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
     /* Change the breakpoint (576px) to your preferred size for mobile devices */
+    .explorationsC{
+        margin-top: 50px;
+    }
+    
     .contentTitle{
         font-size: 1.5rem;
     }
@@ -71,8 +75,6 @@
         font-size: 0.8rem;
     }
 
-
-    
 }
 
 @media (max-width: 576px) {

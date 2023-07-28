@@ -71,7 +71,41 @@ a:hover{
     }
 }
 
+@media (max-width: 1200px){
+    .landing{
+        font-weight: 500;
+    }
 
+    .title{
+        font-size: 3.5rem;
+    }
+
+    .name{
+        color: #6A6AE4
+    }
+
+    .description-big{
+        font-size: 2rem;
+    }
+
+    .description-small{
+        font-size: 1.2rem;
+    }
+
+    .spacing{
+        margin: 30px 0px;
+    }
+
+    .hoverButton{
+        padding: 10px 20px;
+        font-size: 1.2rem;
+    }
+
+    #role {
+        width: 38ch;
+        border-right: 2px solid #6A6AE4;
+    }
+}
 
 
 @media (max-width: 900px) {

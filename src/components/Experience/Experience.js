@@ -20,7 +20,7 @@ export default function Experience({tag, exp}){
                 <CSSTransition key={active} timeout={0} classNames="activeExpAnimation" nodeRef={ref}>
                     <div ref={ref}>
                         <Row className="activeExp">
-                            <Col xs={12} md={3} lg={2} className="d-flex align-items-start justify-content-center">
+                            <Col xs={12} md={3} lg={2} className="d-flex align-items-center justify-content-center">
                                 <a href={exp[active].website} target="_blank" rel="noreferrer"><Image src={exp[active].img} className="expImage" width={275} fluid/></a>
                             </Col>
                             <Col xs={12} md={7} lg={6} className="d-flex align-items-center justify-content-center">
@@ -38,7 +38,7 @@ export default function Experience({tag, exp}){
             <Row className='d-flex justify-content-center cards'>
                 {exp.map((item, index) => {
                     return (
-                        <Col xs={12} md={3} lg={2} key={index} className="d-flex align-items-center justify-content-center">
+                        <Col xs={12} md={3} lg={3} key={index} className="d-flex align-items-center justify-content-center">
                             <div className='cardC d-flex align-items-center' onClick={() => setActive(index)}>
                                 <Image src={item.img} className='cardImg' width={160} fluid />
                                 <div className='cardContent d-flex flex-column align-items-center'>

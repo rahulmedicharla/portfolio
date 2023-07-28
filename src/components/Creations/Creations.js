@@ -24,7 +24,7 @@ export default function Creations({tag, creations}){
                         )
                     })}
                 </Col>
-                <Col xs={12} md={9} lg={7} className="align-items-center justify-content-center">
+                <Col xs={12} md={9} lg={7} className="d-flex align-items-center justify-content-center">
                 <TransitionGroup enter>
                         <CSSTransition key={active} timeout={0} className="activeCreationAnimation" nodeRef={ref}>
                             <div ref={ref}>
