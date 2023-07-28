@@ -96,5 +96,45 @@ export const content = {
             img: "/default.png",
             video: 'audio_studio.mp4'
         }
-    ]
+    ],
+    explorations: {
+        title: "Check out some articles I find interesting!",
+        content: [
+            {
+                section: "art & culture",
+                content:  [
+                    {
+                        title: "AI vs Art: The Future of Creativity",
+                        link: "https://tech.cornell.edu/news/ai-vs-artist-the-future-of-creativity/",
+                        description: "A great article on the future of AI and art and its conflicting ideas about the creative industry."
+                    },
+                    {
+                        title: "Food is a Universal Language",
+                        link: "https://www.faseb.org/diversity-equity-and-inclusion/food-is-a-universal-language",
+                        description: "Food is a language every human understands. It's something that is deeply rooted in culture, history, and something that connects us all."
+                    },
+                ],
+            },
+            {
+                section: "autonomous vehicles",
+                content: [
+                    {
+                        title: "Automated Vehicles, the Driving Brain, and Artificial Intelligence",
+                        link: "https://www.mckinsey.com/industries/automotive-and-assembly/our-insights/autonomous-drivings-future-convenient-and-connected",
+                        description: "This article discusses the future of autonomous vehicles and the interconnected features it could provide."
+                    },
+                ],
+            },
+            {
+                section: "voice",
+                content: [
+                    {
+                        title: "The Sound of the Future",
+                        link: "https://www.hachettebookgroup.com/titles/tobias-dengel/the-sound-of-the-future/9781541702363/?lens=publicaffairs",
+                        description: "This is a book that describes the future of voice activated technologies and its integration with AI.",
+                    }
+                ]
+            }
+        ]
+    }
 }

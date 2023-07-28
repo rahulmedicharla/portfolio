@@ -7,7 +7,9 @@ import Landing from './components/Landing/Landing';
 import About from './components/About/About';
 import Experience from './components/Experience/Experience';
 import ScrollDown from './components/ScrollDown/ScrollDown';
+import ScrollUp from './components/ScrollUp/ScrollUp';
 import Creations from './components/Creations/Creations';
+import Explorations from './components/Explorations/Explorations';
 
 function App() {
   return (
@@ -42,6 +44,14 @@ function App() {
 
       {/* creations section */}
       <Creations tag={content.anchorTags[3]} creations={content.creations} />
+
+      <Explorations tag={content.anchorTags[4]} explorations={content.explorations} />
+
+      <Row>
+        <Col xs={12} md={12} lg={12} className='d-flex justify-content-center'>
+          <ScrollUp tag = {content.anchorTags[0]}/>
+        </Col>
+      </Row>
 
     </Container>
   );

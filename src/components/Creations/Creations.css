@@ -118,6 +118,10 @@
 @media (max-width: 900px) {
     /* Change the breakpoint (576px) to your preferred size for mobile devices */
 
+    .creationsC{
+        height: 500px;
+    }
+
     .creationImageC{
         height: 550px;
         align-items: center !important;
