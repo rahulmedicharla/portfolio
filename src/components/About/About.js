@@ -8,12 +8,12 @@ export default function About({links, about, tag, leadership, skills}){
             <Row id={tag} className='mt-5'>
                 <Col xs = {1} md={1} lg={1}></Col>
                 <Col xs={10} md={10} lg={9} className='d-flex align-items-center justify-content-flex-start'>
-                    <span className='text sectionTitle mr-5'>/{tag}</span>
+                    <span className='text sectionTitle'>/{tag}</span>
                     <span className='hl'></span>
                 </Col> 
             </Row>
             <Row>
-                <Col xs={11} md={11} lg={10} className="d-flex align-items-center flex-row-reverse">
+                <Col xs={11} md={11} lg={10} className="d-flex align-items-center flex-row-reverse justify-content-evenly">
                     <a href={links.twitter} className="linkColor bigLinkC"><Twitter className="bigLinks" fontSize="large"/></a>
                     <a href={links.linkedin} className="linkColor bigLinkC"><LinkedIn className="bigLinks" fontSize="large"/></a>
                     <a href={links.github} className="linkColor bigLinkC"><GitHub className="bigLinks" fontSize="large"/></a>

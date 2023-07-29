@@ -27,6 +27,7 @@ body{
     color: #B3C3FF;
     font-size: 2.5rem;
     font-weight: bold;
+    margin-right: 50px;
 }
 
 .hl{
@@ -35,11 +36,22 @@ body{
     border-radius: 5px;
 }
 
+@media (max-width: 1200px){
+    .sectionTitle{
+        font-size: 2rem;
+        margin-right: 30px;
+    }
+    .mainContent{
+        margin-top: 75px;
+    }
+}
+
 
 @media (max-width: 900px) {
     /* Change the breakpoint (576px) to your preferred size for mobile devices */
     .sectionTitle{
         font-size: 2rem;
+        margin-right: 25px;
     }
     .mainContent{
         margin-top: 50px;
@@ -51,6 +63,7 @@ body{
     /* Change the breakpoint (576px) to your preferred size for mobile devices */
     .sectionTitle{
         font-size: 1.5rem;
+        margin-right: 15px;
     }
     .mainContent{
         margin-top: 0px;
