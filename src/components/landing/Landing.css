@@ -173,8 +173,8 @@ a:hover{
     }
     
     .hoverButton{
-        padding: 5px 10px;
-        font-size: 1rem;
+        padding: 10px 15px;
+        font-size: .7rem;
     }
 
     #role {
