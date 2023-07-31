@@ -14,10 +14,10 @@ export default function About({links, about, tag, leadership, skills}){
             </Row>
             <Row>
                 <Col xs={11} md={11} lg={10} className="d-flex align-items-center flex-row-reverse justify-content-evenly">
-                    <a href={links.twitter} className="linkColor bigLinkC"><Twitter className="bigLinks" fontSize="large"/></a>
-                    <a href={links.linkedin} className="linkColor bigLinkC"><LinkedIn className="bigLinks" fontSize="large"/></a>
-                    <a href={links.github} className="linkColor bigLinkC"><GitHub className="bigLinks" fontSize="large"/></a>
-                    <a href={links.email} className="linkColor bigLinkC"><Email className="bigLinks" fontSize="large"/></a>
+                    <a href={links.twitter} target="_blank" rel="noreferrer" className="linkColor bigLinkC"><Twitter className="bigLinks" fontSize="large"/></a>
+                    <a href={links.linkedin} target="_blank" rel="noreferrer" className="linkColor bigLinkC"><LinkedIn className="bigLinks" fontSize="large"/></a>
+                    <a href={links.github} target="_blank" rel="noreferrer" className="linkColor bigLinkC"><GitHub className="bigLinks" fontSize="large"/></a>
+                    <a href={links.email} target="_blank" rel="noreferrer" className="linkColor bigLinkC"><Email className="bigLinks" fontSize="large"/></a>
                     <a href="/resume.pdf" target="_blank" rel="noreferrer"><div className="button">
                         resume
                     </div></a>
