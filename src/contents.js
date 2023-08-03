@@ -65,7 +65,7 @@ export const content = {
             `,
             stack: "Python, Pytorch Neural Network",
             github: "https://github.com/rahulmedicharla/evolate",
-            live: null,
+            live: "https://colab.research.google.com/drive/1jwoxt-aZlwWB4daxqAiqQgNdPAIdaZV6?usp=sharing",
             img: "/evolate.png",
             video: 'evolate.mp4'
         },
