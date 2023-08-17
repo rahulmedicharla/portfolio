@@ -21,8 +21,8 @@ export const content = {
             role: "SWE Intern",
             company: "WillowTree",
             date: "May 2023 - current",
-            description: `Currently interning at a software consulting company to develop and deploy mobile and web applications to clients. 
-            Working with a cross functional team of developers, designers, and PM's to develop a customer support chat bot. 
+            description: `Interned at a software consulting company to develop and deploy mobile and web applications to clients. 
+            Worked with a cross functional team of developers, designers, and PM's to develop a customer support chat bot. 
             I'm utilizing large language models, vector embeddings, and an SQL database to develop a custom search feature to provide fast semantic search and response: hosted on Azure with a custom backend web API built with .NET framework.`,
             stack: "React, C#, SQL, .NET, Azure",
             website: "https://willowtree.ai/",
