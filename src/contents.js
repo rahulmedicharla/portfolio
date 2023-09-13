@@ -84,7 +84,7 @@ export const content = {
             video: 'mood-ai.mp4'
         },
         {
-            date: 'October 2023',
+            date: 'October 2022',
             name: "Audio Studio (Hackathon)",
             description: `Developed a custom speech to code IDE to make programming more accessible. 
             The program would take in natural language commands, transcribe it, and convert it to runnable python code. 
