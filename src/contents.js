@@ -14,8 +14,8 @@ export const content = {
     I'm also a big supporter for autonomous driving and a big foodie :). 
     Currently, I have experience in building industry scale applications and I've been getting into the world of big data and generative AI.
     `,
-    leadership: 'Cofounder/Treasurer of OSU\'s Cooking Club',
-    skills: ["JS, Python, C#, Java, C", "React, .NET, Ruby, Flask", "Azure, GCP, Docker, SQL", "ML, Open CV, AI"],
+    leadership: ['Tech Lead @ Google Developer Student Clubs, OSU', 'Cofounder/Treasurer of OSU\'s Cooking Club'],
+    skills: ["JS, Python, C#, Java, C", "React, .NET, Ruby, Flask", "Azure, GCP, Docker, SQL", "Open CV, Yolov8, ML"],
     experience: [
         {
             role: "SWE Intern",
@@ -23,7 +23,7 @@ export const content = {
             date: "May - August 2023",
             description: `Interned at a software consulting company to develop and deploy mobile and web applications to clients. 
             Worked with a cross functional team of developers, designers, and PM's to develop a customer support chat bot. 
-            I'm utilizing large language models, vector embeddings, and an SQL database to develop a custom search feature to provide fast semantic search and response: hosted on Azure with a custom backend web API built with .NET framework.`,
+            I utilized large language models, vector embeddings, and a SQL database to develop a custom search feature to provide fast semantic search and response and hosted them on Azure with a custom backend web API built with .NET framework.`,
             stack: "React, C#, SQL, .NET, Azure",
             website: "https://willowtree.ai/",
             tag: 'willowtree',
@@ -34,10 +34,10 @@ export const content = {
             company: "Buckeye Autodrive",
             date: "Jan 2023 - current",
             description: `A member on Ohio State's premiere Autodrive team aimed to develop a fully autonomous vehicle within the four year span of the SAE Autodrive Challenge amongst universities. 
-            I tested and visualized a 3D Object Tracking model to track vehicles and pedestrians. 
+            Currently developing a multi classification image recognition ML model using Yolov8 and OpenCV to identify different types of traffic lights from a real-time camera feed on an autonomous vehicle while also minimizing model response latency.
             I also created a 3D dynamics module to get the real time speed, direction, and orientation of moving objects relative to our vehicle and integrated it into the pipeline.`,
             stack: "Python, Docker, OpenCV, ML",
-            website: "https://car.osu.edu/buckeye-autodrive",
+            website: "https://sites.google.com/view/buckeyeautodrive/home",
             tag: 'autodrive',
             img: '/buckeye_autodrive.png'
         },
