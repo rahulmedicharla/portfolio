@@ -28,16 +28,19 @@ export default function About({links, about, tag, leadership, skills}){
                     <Image className="headshot" src="/headshot.jpg" width={250} fluid/>
                 </Col>
                 <Col xs={12} md={8} lg={6} className="d-flex mt-3">
-                    <p className="text about">{about}<br/>
+                    <p className="text about">{about}
+
+                    <br></br>
+                    <br></br>
                     
                     {leadership.map((item) => {
-                        return (
-                            <>
-                            <b>{item}</b>
-                            <br/>
-                            </>
-                        )
-                    })}
+                            return (
+                                <>
+                                <b>{item}</b>
+                                <br/>
+                                </>
+                            )
+                        })}
                     </p>
                 </Col>
             </Row>

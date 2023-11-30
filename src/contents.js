@@ -7,7 +7,13 @@ export const content = {
         twitter: "https://twitter.com/rvmedicharla"
     },
     name: "Rahul Medicharla",
-    description: "student @ osu",
+    description: [{
+        base: "incoming swe intern @ ",
+        title: 'Capital One'
+    }, {
+        base: "cs student @ ",
+        title: "t'osu"
+    }],
     role: "i like designing, creating, and exploring things.",
     about: `Hey everyone!, I'm Rahul Medicharla, a cs student at The Ohio State University graduating class of '25. 
     I love learning about new technologies, creating new softwares, and exploring new ideas. 
