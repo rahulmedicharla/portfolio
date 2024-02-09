@@ -92,13 +92,13 @@ export const content = {
         {
             date: 'October 2022',
             name: "Audio Studio (Hackathon)",
-            description: `Developed a custom speech to code IDE to make programming more accessible. 
+            description: `Developed a custom speech to code IDE to make programming more accessible. Won 5th place out of 1000 annual participants. 
             The program would take in natural language commands, transcribe it, and convert it to runnable python code. 
             We created a nested recursive representation of the code with CFG's and outputted text onto the custom IDE that can run functional python code through voice commands.
             `,
             stack: "Python, Speech Recognition, OOP",
             github: "https://github.com/rahulmedicharla/HackOhio2022",
-            live: null,
+            live: "https://youtu.be/uru5dw3NDaw",
             img: "/default.png",
             video: 'audio_studio.mp4'
         }
