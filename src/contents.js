@@ -38,9 +38,9 @@ export const content = {
         {
             role: "3D Team Member",
             company: "Buckeye Autodrive",
-            date: "Jan 2023 - current",
-            description: `A member on Ohio State's premiere Autodrive team aimed to develop a fully autonomous vehicle within the four year span of the SAE Autodrive Challenge amongst universities. 
-            Currently developing a multi classification image recognition ML model using Yolov8 and OpenCV to identify different types of traffic lights from a real-time camera feed on an autonomous vehicle while also minimizing model response latency.
+            date: "Jan 2023 - Feb 2025",
+            description: `Ohio State's premiere Autodrive team aimed to develop a fully autonomous vehicle within the four year span of the SAE Autodrive Challenge amongst universities. 
+            Worked on a multi classification image recognition ML model using Yolov8 and OpenCV to identify different types of traffic lights from a real-time camera feed on an autonomous vehicle while also minimizing model response latency.
             I also created a 3D dynamics module to get the real time speed, direction, and orientation of moving objects relative to our vehicle and integrated it into the pipeline.`,
             stack: "Python, Docker, OpenCV, ML",
             website: "https://sites.google.com/view/buckeyeautodrive/home",
