@@ -24,6 +24,17 @@ export const content = {
     skills: ["JS, Python, C#, Java, C", "React, .NET, Ruby, Flask", "Azure, GCP, Docker, SQL", "Open CV, Yolov8, ML"],
     experience: [
         {
+            role: "Undergrad Researcher",
+            company: "PCVLAB, OSU",
+            date: "Jan 2024 - current",
+            description: `Currently working on human motion anomly detection for medical purposes using Google MediaPipe's pose tracking. Planning on 
+            developing a custom continuous learning model to identify medical anomiolies such as strokes in real time. Planning on releasing paper in near future.`,
+            stack: "Python, OpenCV, MediaPipe",
+            website: "https://u.osu.edu/pcvlab/",
+            tag: 'pcvlab',
+            img: '/osu.png'
+        },
+        {
             role: "SWE Intern",
             company: "WillowTree",
             date: "May - August 2023",
@@ -38,7 +49,7 @@ export const content = {
         {
             role: "3D Team Member",
             company: "Buckeye Autodrive",
-            date: "Jan 2023 - Feb 2025",
+            date: "Jan 2023 - Feb 2024",
             description: `Ohio State's premiere Autodrive team aimed to develop a fully autonomous vehicle within the four year span of the SAE Autodrive Challenge amongst universities. 
             Worked on a multi classification image recognition ML model using Yolov8 and OpenCV to identify different types of traffic lights from a real-time camera feed on an autonomous vehicle while also minimizing model response latency.
             I also created a 3D dynamics module to get the real time speed, direction, and orientation of moving objects relative to our vehicle and integrated it into the pipeline.`,

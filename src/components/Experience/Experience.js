@@ -38,9 +38,10 @@ export default function Experience({tag, exp}){
             <Row className='d-flex justify-content-center cards'>
                 {exp.map((item, index) => {
                     return (
-                        <Col xs={12} md={3} lg={3} key={index} className="d-flex align-items-center justify-content-center">
+                        <Col xs={12} md={3} lg={2} key={index} className="d-flex align-items-center justify-content-center">
                             <div className='cardC d-flex align-items-center' onClick={() => setActive(index)}>
                                 <Image src={item.img} className='cardImg' width={160} fluid />
+                                <a href={item.website} target="_blank" rel="noreferrer"><span className="cardSub text underline">Learn More</span></a>
                                 <div className='cardContent d-flex flex-column align-items-center'>
                                     <span className='cardTitle text'>{item.role}</span>
                                     <span className='cardTitle text'>{item.company}</span>

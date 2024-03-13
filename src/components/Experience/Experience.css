@@ -117,6 +117,10 @@ a:hover{
     text-align: center;
 }
 
+.underline{
+    text-decoration: underline;
+}
+
 @media (max-width: 1200px){
     .activeExp{
         margin-top: 50px;
