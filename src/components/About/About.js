@@ -35,10 +35,7 @@ export default function About({links, about, tag, leadership, skills}){
                     
                     {leadership.map((item) => {
                             return (
-                                <>
-                                <b>{item}</b>
-                                <br/>
-                                </>
+                                <b key={item.title} className="cardSub text underline"><a rel="noreferrer" target="_blank" style={{color:'white'}} href={item.link}>{item.title}</a><br/></b>
                             )
                         })}
                     </p>

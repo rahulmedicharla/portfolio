@@ -20,7 +20,14 @@ export const content = {
     I'm also a big supporter for autonomous driving and a big foodie :). 
     Currently, I have experience in building industry scale applications and I've been getting into the world of big data and generative AI.
     `,
-    leadership: ['Tech Lead @ Google Developer Student Clubs, OSU', 'Cofounder/Treasurer of OSU\'s Cooking Club'],
+    leadership: [{
+            title: 'Tech Lead @ Google Developer Student Clubs, OSU',
+            link: "https://gdsc.community.dev/the-ohio-state-university/"
+        }, 
+        {
+            title: 'Cofounder/Treasurer of OSU\'s Cooking Club',
+            link: "https://activities.osu.edu/involvement/student_organizations/find_a_student_org/?i=51980e70-1887-4ec0-8849-396dc22a9f52&l=C&c=all&page=10"
+        }],
     skills: ["JS, Python, C#, Java, C", "React, .NET, Ruby, Flask", "Azure, GCP, Docker, SQL", "Open CV, Yolov8, ML"],
     experience: [
         {
@@ -28,7 +35,7 @@ export const content = {
             company: "PCVLAB, OSU",
             date: "Jan 2024 - current",
             description: `Currently working on human motion anomly detection for medical purposes using Google MediaPipe's pose tracking. Planning on 
-            developing a custom continuous learning model to identify medical anomiolies such as strokes in real time. Planning on releasing paper in near future.`,
+            developing a custom continuous learning model to identify medical anomiolies such as strokes in real time. Planning on releasing a paper in near future.`,
             stack: "Python, OpenCV, MediaPipe",
             website: "https://u.osu.edu/pcvlab/",
             tag: 'pcvlab',

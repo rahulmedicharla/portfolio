@@ -12,10 +12,10 @@ export default function Landing({name, description, role, aboutTag}){
             <div className="spacing">
                 {description.map((item) => {
                     return (
-                        <>
+                        <div key={item.title}>
                         <span className="text description-big">{item.base}</span>
                         <span className="text description-big role_color">{item.title}</span><br/>
-                        </>
+                        </div>
                     )
                 })}
                 <br></br>
