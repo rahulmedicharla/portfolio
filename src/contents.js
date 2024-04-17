@@ -34,8 +34,8 @@ export const content = {
             role: "Undergrad Researcher",
             company: "PCVLAB, OSU",
             date: "Jan 2024 - current",
-            description: `Currently working on human motion anomly detection for medical purposes using Google MediaPipe's pose tracking. Planning on 
-            developing a custom continuous learning model to identify medical anomiolies such as strokes in real time. Planning on releasing a paper in near future.`,
+            description: `Currently working on a project to help medical institutions identify potential stroke patients by flagging the anomalies of their joint kinematics. Stroke patients experience significant changes in their gait, which using computer vision
+            techinques, can be identified. Using Google MediaPipe pose detection and autoencoders to identify anomalies. Plan on releasing a paper on results and my experience soon.`,
             stack: "Python, OpenCV, MediaPipe",
             website: "https://u.osu.edu/pcvlab/",
             tag: 'pcvlab',
