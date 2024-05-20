@@ -29,9 +29,7 @@ export default function Creations({tag, creations}){
                         <CSSTransition key={active} timeout={0} className="activeCreationAnimation" nodeRef={ref}>
                             <div ref={ref}>
                                 <Row className=" activeCreation d-flex flex-column">
-                                    <video autoPlay muted loop preload='auto' className='activeCreationVideo'>
-                                        <source src={creations[active].video} type="video/mp4"/>
-                                    </video>
+                                    <Image src={creations[active].data} className='activeCreationVideo' fluid />
                                     <div className='creationLinks d-flex align-items-center justify-content-end'>
                                         <a href={creations[active].github} target="_blank" rel="noreferrer"><div className="button">
                                             source code

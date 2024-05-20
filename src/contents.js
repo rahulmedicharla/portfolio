@@ -12,7 +12,7 @@ export const content = {
         title: 'Capital One'
     }, {
         base: "cs student @ ",
-        title: "t'osu"
+        title: "osu"
     }],
     role: "i like designing, creating, and exploring things.",
     about: `Hey everyone!, I'm Rahul Medicharla, a cs student at The Ohio State University graduating class of '25. 
@@ -25,7 +25,7 @@ export const content = {
             link: "https://gdsc.community.dev/the-ohio-state-university/"
         }, 
         {
-            title: 'Cofounder/Treasurer of OSU\'s Cooking Club',
+            title: 'Cofounder & President of OSU\'s Cooking Club',
             link: "https://activities.osu.edu/involvement/student_organizations/find_a_student_org/?i=51980e70-1887-4ec0-8849-396dc22a9f52&l=C&c=all&page=10"
         }],
     skills: ["JS, Python, C#, Java, C", "React, .NET, Ruby, Flask", "Azure, GCP, Docker, SQL", "Open CV, Yolov8, ML"],
@@ -34,24 +34,14 @@ export const content = {
             role: "Undergrad Researcher",
             company: "PCVLAB, OSU",
             date: "Jan 2024 - current",
-            description: `Currently working on a project to help medical institutions identify potential stroke patients by flagging the anomalies of their joint kinematics. Stroke patients experience significant changes in their gait, which using computer vision
-            techinques, can be identified. Using Google MediaPipe pose detection and autoencoders to identify anomalies. Plan on releasing a paper on results and my experience soon.`,
+            description: `Developing a project to help medical institutions identify potential stroke patients by flagging the anomalies
+            of their joint kinematics from real-time camera feeds. Stroke patients experience significant changes in their gait, 
+            which using computer vision techniques, can be identified. Using autoencoders and Google MediaPipe's pose detection to 
+            identify anomalies. Plan on releasing a paper on results and my experience soon.`,
             stack: "Python, OpenCV, MediaPipe",
             website: "https://u.osu.edu/pcvlab/",
             tag: 'pcvlab',
             img: '/osu.png'
-        },
-        {
-            role: "SWE Intern",
-            company: "WillowTree",
-            date: "May - August 2023",
-            description: `Interned at a software consulting company to develop and deploy mobile and web applications to clients. 
-            Worked with a cross functional team of developers, designers, and PM's to develop a customer support chat bot. 
-            I utilized large language models, vector embeddings, and a SQL database to develop a custom search feature to provide fast semantic search and response and hosted them on Azure with a custom backend web API built with .NET framework.`,
-            stack: "React, C#, SQL, .NET, Azure",
-            website: "https://willowtree.ai/",
-            tag: 'willowtree',
-            img: '/willowtree.png',
         },
         {
             role: "3D Team Member",
@@ -66,13 +56,25 @@ export const content = {
             img: '/buckeye_autodrive.png'
         },
         {
+            role: "SWE Intern",
+            company: "WillowTree",
+            date: "May - August 2023",
+            description: `Interned at a software consulting company to develop and deploy mobile and web applications to clients. 
+            Worked with a cross functional team of developers, designers, and PM's to develop a customer support chat bot. 
+            I utilized large language models, vector embeddings, and a SQL database to develop a custom search feature to provide fast semantic search and response and hosted them on Azure with a custom backend web API built with .NET framework.`,
+            stack: "React, C#, SQL, .NET, Azure",
+            website: "https://willowtree.ai/",
+            tag: 'willowtree',
+            img: '/willowtree.png',
+        },
+        {
             role: "App Dev Intern",
             company: "TOYMAKERS",
             date: "June - August 2022",
             description: `Developed Bubble, a React Native application to make event organization with friends simple. 
             Displays the real-time location of your friends and current events onto a map using Google Cloud's realtime database and Google Places API. 
             This unique platform enables meeting new people through a unique friends of friends RSVP mechanism for events.`,
-            stack: "React Native, GCP, Redux",
+            stack: "React Native, Google Cloud, Redux",
             website: "https://toymakers.fun/",
             tag: 'toymakers',
             img: '/toymakers.png'
@@ -80,32 +82,28 @@ export const content = {
     ],
     creations: [
         {
+            name: "generalized CV tracking",
+            date: 'April - May 2024',
+            description: `A generalized computer vision tracking algorithm that attemps to be rotation, scale, brightness, and background invariant 
+            using non ML based computer vision techniques. The algorithm primarily works by using inherent image characteristics and statistics-based algorithms to be generalized.
+            The program takes a source video and target image to search for and returns the center location of the tracked object.`,
+            stack: "Python, Scipy, OpenCV",
+            github: "https://github.com/rahulmedicharla/Generalized-CV-Tracking-Algorithm",
+            img: "/cv_tracking.png",
+            data: 'cv_tracking_demo.png'
+        },
+        {
             name: "evolate",
             date: 'June - July 2023',
             description: `evolate is a new data structure built to solve the problem of efficiency within search algorithms. 
-            Depending on a user's behavioral patterns, Linked Lists, Sequences, Hash Maps, or Binary Search Trees may be more efficient. 
-            Ex. Consistent searching at the beginning indices of a data structure would be most efficient with a Linked List. 
+            Depending on a user's behavioral patterns, Linked Lists, Sequences, Hash Maps, or Binary Search Trees may be more efficient.
             evolate is designed on a multi-modal node object and utilizing a custom Neural Network, evolate automatically tracks behavioral patterns such as insertion/deletion frequencies and search predictability to switch data structures thus optimizing efficiency.
             `,
             stack: "Python, Pytorch Neural Network",
             github: "https://github.com/rahulmedicharla/evolate",
             live: "https://colab.research.google.com/drive/1jwoxt-aZlwWB4daxqAiqQgNdPAIdaZV6?usp=sharing",
             img: "/evolate.png",
-            video: 'evolate.mp4'
-        },
-        {
-            name: "mood.ai",
-            date: 'March - May 2023',
-            description: `mood.ai is an application designed to capture the essence of moments and memories as AI generated art. 
-            Most memories are currently stored as pictures and videos. 
-            This program decomposes that media to its essential components using Machine Learning such as Object Detection, Emotion Detection, Sentiment Analysis, Audio Detection, etc... 
-            The program then uses large language and stable diffusion models to recompose the memory as AI generated art.
-            `,
-            stack: "Python, React, Docker, GCP, ML",
-            github: "https://github.com/rahulmedicharla/mood.ai",
-            live: "https://mood-ai-coral.vercel.app/",
-            img: "/moodai.png",
-            video: 'mood-ai.mp4'
+            data: 'evolate_demo.png'
         },
         {
             date: 'October 2022',
@@ -118,7 +116,7 @@ export const content = {
             github: "https://github.com/rahulmedicharla/HackOhio2022",
             live: "https://youtu.be/uru5dw3NDaw",
             img: "/default.png",
-            video: 'audio_studio.mp4'
+            data: 'audio_studio_demo.png'
         }
     ],
     explorations: {
