@@ -121,7 +121,7 @@
     }
 
     .creationImage{
-        width: 150px;
+        width: 125px;
     }
 
     .creationImagePhone{
@@ -172,7 +172,7 @@
     }
 
     .creationImage{
-        width: 120px;
+        width: 110px;
     }
 
     .activeCreation{
@@ -233,7 +233,7 @@
     
     .creationImagePhone{
         display: flex;
-        width: 90px;
+        width: 80px;
         border-radius: 10px;
     }
 

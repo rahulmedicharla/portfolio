@@ -20,7 +20,7 @@ export default function Creations({tag, creations}){
                 <Col xs={0} md={3} lg={2} className='d-flex flex-column align-items-start justify-content-evenly creationImageC'>
                     {creations.map((item, index) => {
                         return (
-                            <Image key={index} src={item.img} className='creationImage' width={190} fluid onClick={() => setActive(index)} />
+                            <Image key={index} src={item.img} className='creationImage' width={175} fluid onClick={() => setActive(index)} />
                         )
                     })}
                 </Col>

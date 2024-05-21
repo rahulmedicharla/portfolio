@@ -106,6 +106,20 @@ export const content = {
             data: 'evolate_demo.png'
         },
         {
+            name: "mood.ai",
+            date: 'March - May 2023',
+            description: `mood.ai is an application designed to capture the essence of moments and memories as AI generated art. 
+            Most memories are currently stored as pictures and videos. 
+            This program decomposes that media to its essential components using Machine Learning such as Object Detection, Emotion Detection, Sentiment Analysis, Audio Detection, etc... 
+            The program then uses large language and stable diffusion models to recompose the memory as AI generated art.
+            `,
+            stack: "Python, React, Docker, GCP, ML",
+            github: "https://github.com/rahulmedicharla/mood.ai",
+            live: "https://mood-ai-coral.vercel.app/",
+            img: "/moodai.png",
+            data: 'moodai_demo.png'
+        },
+        {
             date: 'October 2022',
             name: "Audio Studio (Hackathon)",
             description: `Developed a custom speech to code IDE to make programming more accessible. Won 5th place out of 1000 annual participants. 
@@ -117,7 +131,7 @@ export const content = {
             live: "https://youtu.be/uru5dw3NDaw",
             img: "/default.png",
             data: 'audio_studio_demo.png'
-        }
+        },
     ],
     explorations: {
         title: "Check out some articles I find interesting!",
