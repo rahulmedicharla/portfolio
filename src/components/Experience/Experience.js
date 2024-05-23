@@ -25,7 +25,7 @@ export default function Experience({tag, exp}){
                             </Col>
                             <Col xs={12} md={7} lg={6} className="d-flex align-items-center justify-content-center">
                                 <div className="expDes text">
-                                    <span className='expTitle text'>{exp[active].role} @ {exp[active].company}</span><br/>
+                                    <span className='expTitle text'>{exp[active].role} @ <a href={exp[active].website} target="_blank" rel="noreferrer" className='text expTitle underline'>{exp[active].company}</a></span><br/>
                                     <span className='expDate text'>{exp[active].date}</span><br/>
                                     {exp[active].description}<br/>
                                     <span className='expStack text'><i>Stack: {exp[active].stack}</i></span>
@@ -41,7 +41,6 @@ export default function Experience({tag, exp}){
                         <Col xs={12} md={3} lg={2} key={index} className="d-flex align-items-center justify-content-center">
                             <div className='cardC d-flex align-items-center' onClick={() => setActive(index)}>
                                 <Image src={item.img} className='cardImg' width={160} fluid />
-                                <a href={item.website} target="_blank" rel="noreferrer"><span className="cardSub text underline">Learn More</span></a>
                                 <div className='cardContent d-flex flex-column align-items-center'>
                                     <span className='cardTitle text'>{item.role}</span>
                                     <span className='cardTitle text'>{item.company}</span>

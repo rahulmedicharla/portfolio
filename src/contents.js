@@ -17,8 +17,8 @@ export const content = {
     role: "i like designing, creating, and exploring things.",
     about: `Hey everyone!, I'm Rahul Medicharla, a cs student at The Ohio State University graduating class of '25. 
     I love learning about new technologies, creating new softwares, and exploring new ideas. 
-    I'm also a big supporter for autonomous driving and a big foodie :). 
-    Currently, I have experience in building industry scale applications and I've been getting into the world of big data and generative AI.
+    I'm also a big supporter for the intersection of healthcare and technology, autonomous driving, and a big foodie :). 
+    Currently, I have experience in conducting methdological research, building industry scale applications, and I've been getting into the world of big data and generative AI.
     `,
     leadership: [{
             title: 'Tech Lead @ Google Developer Student Clubs, OSU',
@@ -38,7 +38,7 @@ export const content = {
             of their joint kinematics from real-time camera feeds. Stroke patients experience significant changes in their gait, 
             which using computer vision techniques, can be identified. Using autoencoders and Google MediaPipe's pose detection to 
             identify anomalies. Plan on releasing a paper on results and my experience soon.`,
-            stack: "Python, OpenCV, MediaPipe",
+            stack: "Python, OpenCV, MediaPipe, Yolov8",
             website: "https://u.osu.edu/pcvlab/",
             tag: 'pcvlab',
             img: '/osu.png'
@@ -50,7 +50,7 @@ export const content = {
             description: `Ohio State's premiere Autodrive team aimed to develop a fully autonomous vehicle within the four year span of the SAE Autodrive Challenge amongst universities. 
             Worked on a multi classification image recognition ML model using Yolov8 and OpenCV to identify different types of traffic lights from a real-time camera feed on an autonomous vehicle while also minimizing model response latency.
             I also created a 3D dynamics module to get the real time speed, direction, and orientation of moving objects relative to our vehicle and integrated it into the pipeline.`,
-            stack: "Python, Docker, OpenCV, ML",
+            stack: "Python, Docker, OpenCV, Yolov8",
             website: "https://sites.google.com/view/buckeyeautodrive/home",
             tag: 'autodrive',
             img: '/buckeye_autodrive.png'
@@ -62,7 +62,7 @@ export const content = {
             description: `Interned at a software consulting company to develop and deploy mobile and web applications to clients. 
             Worked with a cross functional team of developers, designers, and PM's to develop a customer support chat bot. 
             I utilized large language models, vector embeddings, and a SQL database to develop a custom search feature to provide fast semantic search and response and hosted them on Azure with a custom backend web API built with .NET framework.`,
-            stack: "React, C#, SQL, .NET, Azure",
+            stack: "React, C#, SQL, .NET, Azure Cloud Services",
             website: "https://willowtree.ai/",
             tag: 'willowtree',
             img: '/willowtree.png',
@@ -74,7 +74,7 @@ export const content = {
             description: `Developed Bubble, a React Native application to make event organization with friends simple. 
             Displays the real-time location of your friends and current events onto a map using Google Cloud's realtime database and Google Places API. 
             This unique platform enables meeting new people through a unique friends of friends RSVP mechanism for events.`,
-            stack: "React Native, Google Cloud, Redux",
+            stack: "React Native, Google Cloud Platform, Redux",
             website: "https://toymakers.fun/",
             tag: 'toymakers',
             img: '/toymakers.png'
