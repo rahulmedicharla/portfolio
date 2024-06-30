@@ -1,14 +1,14 @@
 export const content = {
     anchorTags: ["home", "about", "experience", "creations", "explorations"],
     links: {
-        email: "mailto:medicharla.2@osu.edu",
+        email: "mailto:rmedicharla@gmail.com",
         github: "https://github.com/rahulmedicharla",
         linkedin: "https://linkedin.com/in/rahulmedicharla",
         twitter: "https://twitter.com/rvmedicharla"
     },
     name: "Rahul Medicharla",
     description: [{
-        base: "incoming swe intern @ ",
+        base: "swe intern @ ",
         title: 'Capital One'
     }, {
         base: "cs student @ ",
@@ -18,7 +18,7 @@ export const content = {
     about: `Hey everyone!, I'm Rahul Medicharla, a cs student at The Ohio State University graduating class of '25. 
     I love learning about new technologies, creating new softwares, and exploring new ideas. 
     I'm also a big supporter for the intersection of healthcare and technology, autonomous driving, and a big foodie :). 
-    Currently, I have experience in conducting methdological research, building industry scale applications, and I've been getting into the world of big data and generative AI.
+    Currently, I have experience in conducting methdological research at a university, building industry scale applications, supporting cloud infrastructure, and I've been getting into the world of ML and AI.
     `,
     leadership: [{
             title: 'Tech Lead @ Google Developer Student Clubs, OSU',
@@ -31,9 +31,21 @@ export const content = {
     skills: ["JS, Python, C#, Java, C", "React, .NET, Ruby, Flask", "Azure, GCP, Docker, SQL", "Open CV, Yolov8, ML"],
     experience: [
         {
+            role: "SWE Intern (TIP)",
+            company: "Capital One",
+            date: "June 2024 - Present",
+            description: `Placed on Enterprise Technologies LOB; Extending Amazon EKS' Control Plane functionality by 
+            developing a Kubernetes-native operator to assist with vulnerability risk mitigation in live Kubernetes clusters by scanning Docker containers 
+            in deployed pods for vulnerabilities found in a CVE Database and notifying them to internal stakeholders.`,
+            stack: "Go, AWS, EKS, Kubernetes, Docker",
+            website: "https://www.capitalone.com/",
+            tag: 'capitalone',
+            img: '/capitalone.jpg'
+        },
+        {
             role: "Undergrad Researcher",
             company: "PCVLAB, OSU",
-            date: "Jan 2024 - current",
+            date: "January 2024 - Present",
             description: `Developing a project to help medical institutions identify potential stroke patients by flagging the anomalies
             of their joint kinematics from real-time camera feeds. Stroke patients experience significant changes in their gait, 
             which using computer vision techniques, can be identified. Using autoencoders and Google MediaPipe's pose detection to 
@@ -42,18 +54,6 @@ export const content = {
             website: "https://u.osu.edu/pcvlab/",
             tag: 'pcvlab',
             img: '/osu.png'
-        },
-        {
-            role: "3D Team Member",
-            company: "Buckeye Autodrive",
-            date: "Jan 2023 - Feb 2024",
-            description: `Ohio State's premiere Autodrive team aimed to develop a fully autonomous vehicle within the four year span of the SAE Autodrive Challenge amongst universities. 
-            Worked on a multi classification image recognition ML model using Yolov8 and OpenCV to identify different types of traffic lights from a real-time camera feed on an autonomous vehicle while also minimizing model response latency.
-            I also created a 3D dynamics module to get the real time speed, direction, and orientation of moving objects relative to our vehicle and integrated it into the pipeline.`,
-            stack: "Python, Docker, OpenCV, Yolov8",
-            website: "https://sites.google.com/view/buckeyeautodrive/home",
-            tag: 'autodrive',
-            img: '/buckeye_autodrive.png'
         },
         {
             role: "SWE Intern",
@@ -68,17 +68,18 @@ export const content = {
             img: '/willowtree.png',
         },
         {
-            role: "App Dev Intern",
-            company: "TOYMAKERS",
-            date: "June - August 2022",
-            description: `Developed Bubble, a React Native application to make event organization with friends simple. 
-            Displays the real-time location of your friends and current events onto a map using Google Cloud's realtime database and Google Places API. 
-            This unique platform enables meeting new people through a unique friends of friends RSVP mechanism for events.`,
-            stack: "React Native, Google Cloud Platform, Redux",
-            website: "https://toymakers.fun/",
-            tag: 'toymakers',
-            img: '/toymakers.png'
-        }
+            role: "3D Team Member",
+            company: "Buckeye Autodrive",
+            date: "January 2023 - February 2024",
+            description: `Ohio State's premiere Autodrive team aimed to develop a fully autonomous vehicle within the four year span of the SAE Autodrive Challenge amongst universities. 
+            Worked on a multi classification image recognition ML model using Yolov8 and OpenCV to identify different types of traffic lights from a real-time camera feed on an autonomous vehicle while also minimizing model response latency.
+            I also created a 3D dynamics module to get the real time speed, direction, and orientation of moving objects relative to our vehicle and integrated it into the pipeline.`,
+            stack: "Python, Docker, OpenCV, Yolov8",
+            website: "https://sites.google.com/view/buckeyeautodrive/home",
+            tag: 'autodrive',
+            img: '/buckeye_autodrive.png'
+        },
+
     ],
     creations: [
         {
