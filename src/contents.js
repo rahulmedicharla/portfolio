@@ -8,7 +8,7 @@ export const content = {
     },
     name: "Rahul Medicharla",
     description: [{
-        base: "swe intern @ ",
+        base: "ex swe intern @ ",
         title: 'Capital One'
     }, {
         base: "cs student @ ",
@@ -17,17 +17,19 @@ export const content = {
     role: "i like designing, creating, and exploring things.",
     about: `Hey everyone!, I'm Rahul Medicharla, a cs student at The Ohio State University graduating class of '25. 
     I love learning about new technologies, creating new softwares, and exploring new ideas. 
-    I'm also a big supporter for the intersection of healthcare and technology, autonomous driving, and a big foodie :). 
-    Currently, I have experience in conducting methdological research at a university, building industry scale applications, supporting cloud infrastructure, and I've been getting into the world of ML and AI.
+    I'm also a big supporter of the intersection of healthcare and technology, autonomous driving, and a big foodie :). 
+    Currently, I have experience in conducting research at my university, supporting cloud infrastructure, building industry scale applications, and I've been getting into the world of ML and AI.
     `,
-    leadership: [{
-            title: 'Tech Lead @ Google Developer Student Clubs, OSU',
-            link: "https://gdsc.community.dev/the-ohio-state-university/"
-        }, 
+    leadership: [
         {
             title: 'Cofounder & President of OSU\'s Cooking Club',
             link: "https://activities.osu.edu/involvement/student_organizations/find_a_student_org/?i=51980e70-1887-4ec0-8849-396dc22a9f52&l=C&c=all&page=10"
-        }],
+        },
+        {
+            title: 'Tech Lead @ Google Developer Student Clubs, OSU',
+            link: "https://gdsc.community.dev/the-ohio-state-university/"
+        }
+    ],
     skills: ["JS, Python, C#, Java, C", "React, .NET, Ruby, Flask", "Azure, GCP, Docker, SQL", "Open CV, Yolov8, ML"],
     experience: [
         {
@@ -35,9 +37,9 @@ export const content = {
             company: "Capital One",
             date: "June 2024 - Present",
             description: `Placed on Enterprise Technologies LOB; Extending Amazon EKS' Control Plane functionality by 
-            developing a Kubernetes-native operator to assist with vulnerability risk mitigation in live Kubernetes clusters by scanning Docker containers 
+            developing a Kubernetes-native operator to assist with vulnerability risk mitigation in over 100 live Kubernetes clusters by scanning Docker containers 
             in deployed pods for vulnerabilities found in a CVE Database and notifying them to internal stakeholders.`,
-            stack: "Go, AWS, EKS, Kubernetes, Docker",
+            stack: "Go, AWS EKS, Kubernetes, Docker",
             website: "https://www.capitalone.com/",
             tag: 'capitalone',
             img: '/capitalone.jpg'
@@ -47,10 +49,10 @@ export const content = {
             company: "PCVLAB, OSU",
             date: "January 2024 - Present",
             description: `Developing a project to help medical institutions identify potential stroke patients by flagging the anomalies
-            of their joint kinematics from real-time camera feeds. Stroke patients experience significant changes in their gait, 
-            which using computer vision techniques, can be identified. Using autoencoders and Google MediaPipe's pose detection to 
+            of face & joint kinematics from real-time camera feeds. Stroke patients experience significant physical changes, 
+            which using computer vision techniques, can be identified. Using autoencoders and Meta's Sapiens CV model to 
             identify anomalies. Plan on releasing a paper on results and my experience soon.`,
-            stack: "Python, OpenCV, MediaPipe, Yolov8",
+            stack: "Python, OpenCV, Meta's Sapiens, Yolov8",
             website: "https://u.osu.edu/pcvlab/",
             tag: 'pcvlab',
             img: '/osu.png'
@@ -85,7 +87,7 @@ export const content = {
         {
             name: "generalized CV tracking",
             date: 'April - May 2024',
-            description: `A generalized computer vision tracking algorithm that attemps to be rotation, scale, brightness, and background invariant 
+            description: `A generalized computer vision tracking algorithm that attempts to be rotation, scale, brightness, and background invariant 
             using non ML based computer vision techniques. The algorithm primarily works by using inherent image characteristics and statistics-based algorithms to be generalized.
             The program takes a source video and target image to search for and returns the center location of the tracked object.`,
             stack: "Python, Scipy, OpenCV",
@@ -138,6 +140,16 @@ export const content = {
         title: "Check out some articles I find interesting!",
         content: [
             {
+                section: "healthcare & technology",
+                content: [
+                    {
+                        title: "The impact of health information technology on patient safety",
+                        link: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5787626/",
+                        description: "This article discusses the impact of technology on healthcare and how it's changing the way we approach medicine."
+                    }
+                ]
+            },
+            {
                 section: "art & culture",
                 content:  [
                     {
@@ -162,16 +174,6 @@ export const content = {
                     },
                 ],
             },
-            {
-                section: "voice",
-                content: [
-                    {
-                        title: "The Sound of the Future",
-                        link: "https://www.hachettebookgroup.com/titles/tobias-dengel/the-sound-of-the-future/9781541702363/?lens=publicaffairs",
-                        description: "This is a book that describes the future of voice activated technologies and its integration with AI.",
-                    }
-                ]
-            }
         ]
     }
 }
