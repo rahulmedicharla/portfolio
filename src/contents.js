@@ -8,7 +8,7 @@ export const content = {
     },
     name: "Rahul Medicharla",
     description: [{
-        base: "ex swe intern @ ",
+        base: "incoming swe @ ",
         title: 'Capital One'
     }, {
         base: "cs student @ ",
