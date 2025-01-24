@@ -30,12 +30,24 @@ export const content = {
             link: "https://gdsc.community.dev/the-ohio-state-university/"
         }
     ],
-    skills: ["JS, Python, C#, Java, C", "React, .NET, Ruby, Flask", "Azure, GCP, Docker, SQL", "Open CV, Yolov8, ML"],
+    skills: ["JS, Python, C#, Java, C", "React, .NET, Ruby, Flask", "Azure, GCP, Docker, SQL", "Open CV, Yolov8, Pytorch"],
     experience: [
+        {
+            role: "Undergrad Researcher",
+            company: "PCVLAB, OSU",
+            date: "January 2024 - Present",
+            description: `Developing a project to help medical institutions flag potential stroke patients by identifying anomalies
+            on facial keypoints. Stroke patients experience significant facial changes, 
+            which using computer vision techniques, can be identified. Using Pytorch Lightning and Meta's Sapiens embedding model, I am training an emotion classification model. Plan on releasing a paper on results and my experience soon.`,
+            stack: "Python, Pytorch, Meta Sapiens",
+            website: "https://u.osu.edu/pcvlab/",
+            tag: 'pcvlab',
+            img: '/osu.png'
+        },
         {
             role: "SWE Intern (TIP)",
             company: "Capital One",
-            date: "June 2024 - Present",
+            date: "June - August 2024",
             description: `Placed on Enterprise Technologies LOB; Extending Amazon EKS' Control Plane functionality by 
             developing a Kubernetes-native operator to assist with vulnerability risk mitigation in over 100 live Kubernetes clusters by scanning Docker containers 
             in deployed pods for vulnerabilities found in a CVE Database and notifying them to internal stakeholders.`,
@@ -45,26 +57,13 @@ export const content = {
             img: '/capitalone.jpg'
         },
         {
-            role: "Undergrad Researcher",
-            company: "PCVLAB, OSU",
-            date: "January 2024 - Present",
-            description: `Developing a project to help medical institutions identify potential stroke patients by flagging the anomalies
-            of face & joint kinematics from real-time camera feeds. Stroke patients experience significant physical changes, 
-            which using computer vision techniques, can be identified. Using autoencoders and Meta's Sapiens CV model to 
-            identify anomalies. Plan on releasing a paper on results and my experience soon.`,
-            stack: "Python, OpenCV, Meta's Sapiens, Yolov8",
-            website: "https://u.osu.edu/pcvlab/",
-            tag: 'pcvlab',
-            img: '/osu.png'
-        },
-        {
             role: "SWE Intern",
             company: "WillowTree",
             date: "May - August 2023",
             description: `Interned at a software consulting company to develop and deploy mobile and web applications to clients. 
             Worked with a cross functional team of developers, designers, and PM's to develop a customer support chat bot. 
             I utilized large language models, vector embeddings, and a SQL database to develop a custom search feature to provide fast semantic search and response and hosted them on Azure with a custom backend web API built with .NET framework.`,
-            stack: "React, C#, SQL, .NET, Azure Cloud Services",
+            stack: "React, C#, SQL, .NET, Azure",
             website: "https://willowtree.ai/",
             tag: 'willowtree',
             img: '/willowtree.png',
