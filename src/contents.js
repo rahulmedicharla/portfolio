@@ -25,12 +25,8 @@ export const content = {
             title: 'Cofounder & President of OSU\'s Cooking Club',
             link: "https://activities.osu.edu/involvement/student_organizations/find_a_student_org/?i=51980e70-1887-4ec0-8849-396dc22a9f52&l=C&c=all&page=10"
         },
-        {
-            title: 'Tech Lead @ Google Developer Student Clubs, OSU',
-            link: "https://gdsc.community.dev/the-ohio-state-university/"
-        }
     ],
-    skills: ["JS, Python, C#, Java, C", "React, .NET, Ruby, Flask", "Azure, GCP, Docker, SQL", "Open CV, Yolov8, Pytorch"],
+    skills: ["JS, Python, Go, Java", "TS, React, .NET, Flask", "Kuberenetes, AWS, Azure, GCP, Docker", "Open CV, Yolov8, Pytorch"],
     experience: [
         {
             role: "Undergrad Researcher",
@@ -51,7 +47,7 @@ export const content = {
             description: `Placed on Enterprise Technologies LOB; Extending Amazon EKS' Control Plane functionality by 
             developing a Kubernetes-native operator to assist with vulnerability risk mitigation in over 100 live Kubernetes clusters by scanning Docker containers 
             in deployed pods for vulnerabilities found in a CVE Database and notifying them to internal stakeholders.`,
-            stack: "Go, AWS EKS, Kubernetes, Docker",
+            stack: "Go, AWS, Kubernetes, Docker",
             website: "https://www.capitalone.com/",
             tag: 'capitalone',
             img: '/capitalone.jpg'
@@ -84,6 +80,18 @@ export const content = {
     ],
     creations: [
         {
+            name: "kubefs",
+            date: "August 2024 - Present",
+            description: `a custom cli tool meant to automate the creation, testing, and deployment of full stack applications on to kubernetes clusters. It takes care of docker image creation, container management, and kuberenetes deployment with helm. 
+            It offers features such as dynamic host variables for intra-resource communication and support for numerous common frameworks including NextJS, Cassandra, Redis, and NestJs. 
+            Currently published on github andi installable through homebrew. Check out the github to learn more.
+            `,
+            stack: "Go, Kubernetes, Helm, Docker",
+            github: "https://github.com/rahulmedicharla/kubefs",
+            img: "/kubefs.png",
+            data: 'kubefs_demo.png'
+        },
+        {
             name: "generalized CV tracking",
             date: 'April - May 2024',
             description: `A generalized computer vision tracking algorithm that attempts to be rotation, scale, brightness, and background invariant 
@@ -106,20 +114,6 @@ export const content = {
             live: "https://colab.research.google.com/drive/1jwoxt-aZlwWB4daxqAiqQgNdPAIdaZV6?usp=sharing",
             img: "/evolate.png",
             data: 'evolate_demo.png'
-        },
-        {
-            name: "mood.ai",
-            date: 'March - May 2023',
-            description: `mood.ai is an application designed to capture the essence of moments and memories as AI generated art. 
-            Most memories are currently stored as pictures and videos. 
-            This program decomposes that media to its essential components using Machine Learning such as Object Detection, Emotion Detection, Sentiment Analysis, Audio Detection, etc... 
-            The program then uses large language and stable diffusion models to recompose the memory as AI generated art.
-            `,
-            stack: "Python, React, Docker, GCP, ML",
-            github: "https://github.com/rahulmedicharla/mood.ai",
-            live: "https://mood-ai-coral.vercel.app/",
-            img: "/moodai.png",
-            data: 'moodai_demo.png'
         },
         {
             date: 'October 2022',
