@@ -4,7 +4,6 @@ export const content = {
         email: "mailto:rmedicharla@gmail.com",
         github: "https://github.com/rahulmedicharla",
         linkedin: "https://linkedin.com/in/rahulmedicharla",
-        twitter: "https://twitter.com/rvmedicharla"
     },
     name: "Rahul Medicharla",
     description: [{

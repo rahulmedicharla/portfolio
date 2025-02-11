@@ -1,6 +1,6 @@
 import {Row, Col, Image} from "react-bootstrap";
 import "./About.css";
-import { GitHub, Email, LinkedIn, Twitter } from "@mui/icons-material";
+import { GitHub, Email, LinkedIn } from "@mui/icons-material";
 
 export default function About({links, about, tag, leadership, skills}){
     return(
@@ -14,7 +14,6 @@ export default function About({links, about, tag, leadership, skills}){
             </Row>
             <Row>
                 <Col xs={11} md={11} lg={10} className="d-flex align-items-center flex-row-reverse justify-content-evenly">
-                    <a href={links.twitter} target="_blank" rel="noreferrer" className="linkColor bigLinkC"><Twitter className="bigLinks" fontSize="large"/></a>
                     <a href={links.linkedin} target="_blank" rel="noreferrer" className="linkColor bigLinkC"><LinkedIn className="bigLinks" fontSize="large"/></a>
                     <a href={links.github} target="_blank" rel="noreferrer" className="linkColor bigLinkC"><GitHub className="bigLinks" fontSize="large"/></a>
                     <a href={links.email} target="_blank" rel="noreferrer" className="linkColor bigLinkC"><Email className="bigLinks" fontSize="large"/></a>
