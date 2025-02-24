@@ -1,0 +1,23 @@
+{
+  "apiKey": "AIzaSyBDpvnMTIcZds8iS4lDDzkArx80oSlV4EA",
+  "authDomain": "rahul-medicharla-portfolio.firebaseapp.com",
+  "projectId": "rahul-medicharla-portfolio",
+  "storageBucket": "rahul-medicharla-portfolio.appspot.com",
+  "messagingSenderId": "626390073991",
+  "appId": "1:626390073991:web:6b40b99512ca52c9c3ae22",
+  "measurementId": "G-G5KB9LBQ28",
+  "hosting": {
+    "public": "build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
