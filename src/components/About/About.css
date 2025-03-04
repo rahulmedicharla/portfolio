@@ -26,6 +26,7 @@
 .about{
     color: #D4D4D4;
     font-size: 1.3rem;
+    text-align: center;
 }
 
 .skillsText{
@@ -58,7 +59,8 @@
     }
 }
 
-@media (max-width: 1200px){
+@media (max-width: 1199px){
+    /* Large*/
     .bigLinks{
         transform: scale(.9);
     }
@@ -87,8 +89,8 @@
     }
 }
 
-@media (max-width: 900px) {
-    /* Change the breakpoint (576px) to your preferred size for mobile devices */
+@media (max-width: 991px) {
+    /* Small & Medium */
     .bigLinks{
         transform: scale(.9);
     }
@@ -124,8 +126,8 @@
 
 }
 
-@media (max-width: 576px) {
-    /* Change the breakpoint (576px) to your preferred size for mobile devices */
+@media (max-width: 575px) {
+    /* XS */
     .bigLinks{
         transform: scale(.7);
     }

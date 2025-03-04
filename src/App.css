@@ -36,7 +36,8 @@ body{
     border-radius: 5px;
 }
 
-@media (max-width: 1200px){
+@media (max-width: 1199px){
+    /* Large & XL */
     .sectionTitle{
         font-size: 2rem;
         margin-right: 30px;
@@ -47,8 +48,8 @@ body{
 }
 
 
-@media (max-width: 900px) {
-    /* Change the breakpoint (576px) to your preferred size for mobile devices */
+@media (max-width: 991px) {
+    /* Medium */
     .sectionTitle{
         font-size: 2rem;
         margin-right: 25px;
@@ -59,8 +60,8 @@ body{
 
 }
 
-@media (max-width: 576px) {
-    /* Change the breakpoint (576px) to your preferred size for mobile devices */
+@media (max-width: 767px) {
+    /* XS and Small */
     .sectionTitle{
         font-size: 1.5rem;
         margin-right: 15px;
@@ -72,4 +73,4 @@ body{
         display: none;
     }
 
-  }
+}

@@ -5,15 +5,16 @@ export default function Explorations({tag, explorations}) {
     return (
         <>
             <Row id={tag} className='mt-5'>
-                <Col xs={1} md={1} lg={1}></Col>
-                <Col xs={10} md={10} lg={9} className='d-flex align-items-center justify-content-start'>
+                <Col xs = {1} md={1} lg={2} xl={2}></Col>
+                <Col xs={10} md={10} lg={8} xl={8} className='d-flex align-items-center justify-content-flex-start'>
                     <span className='text sectionTitle'>/{tag}</span>
                     <span className='hl'></span>
-                </Col> 
+                </Col>
+                <Col xs = {1} md={1} lg={2} xl={2}></Col>  
             </Row>
             <Row>
-                <Col xs={0} md={0} lg={2}></Col>
-                <Col xs={12} md={12} lg={8} className='d-flex flex-column align-items-center justify-content-center'>
+                <Col xs={1} md={1} lg={2}></Col>
+                <Col xs={10} md={10} lg={8} className='d-flex flex-column align-items-center justify-content-center'>
                     <div className='text-center explorationsC'>
                         <span className='text contentTitle'>{explorations.title}</span>
                         {explorations.content.map((item, index) => {

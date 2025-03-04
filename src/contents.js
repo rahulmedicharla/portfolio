@@ -28,13 +28,12 @@ export const content = {
     skills: ["JS, Python, Go, Java", "TS, React, .NET, Flask", "Kuberenetes, AWS, Azure, GCP, Docker", "Open CV, Yolov8, Pytorch"],
     experience: [
         {
-            role: "Undergrad Researcher",
+            role: "UG Researcher",
             company: "PCVLAB, OSU",
-            date: "January 2024 - Present",
-            description: `Developing a project to help medical institutions flag potential stroke patients by identifying anomalies
-            on facial keypoints. Stroke patients experience significant facial changes, 
-            which using computer vision techniques, can be identified. Using Pytorch Lightning and Meta's Sapiens embedding model, I am training an emotion classification model. Plan on releasing a paper on results and my experience soon.`,
-            stack: "Python, Pytorch, Meta Sapiens",
+            date: "Jan '24 - Present",
+            description: `Selected to be a part of the Undergraduate Research Distinction Program at OSU where I am conducting research under the Photogrammetric Computer Vision Lab & culminating my findings into a defended thesis. 
+            I am building a model to help medical institutions flag potential stroke patients by identifying anomalies on facial keypoints. We aim to build a SOTA emotion classification model on the AffectNet dataset and publish a paper.`,
+            stack: "PyTorch, Transformers, OpenCV",
             website: "https://u.osu.edu/pcvlab/",
             tag: 'pcvlab',
             img: '/osu.png'
@@ -42,7 +41,7 @@ export const content = {
         {
             role: "SWE Intern (TIP)",
             company: "Capital One",
-            date: "June - August 2024",
+            date: "June - Aug '24",
             description: `Placed on Enterprise Technologies LOB; Extending Amazon EKS' Control Plane functionality by 
             developing a Kubernetes-native operator to assist with vulnerability risk mitigation in over 100 live Kubernetes clusters by scanning Docker containers 
             in deployed pods for vulnerabilities found in a CVE Database and notifying them to internal stakeholders.`,
@@ -54,7 +53,7 @@ export const content = {
         {
             role: "SWE Intern",
             company: "WillowTree",
-            date: "May - August 2023",
+            date: "May - Aug '23",
             description: `Interned at a software consulting company to develop and deploy mobile and web applications to clients. 
             Worked with a cross functional team of developers, designers, and PM's to develop a customer support chat bot. 
             I utilized large language models, vector embeddings, and a SQL database to develop a custom search feature to provide fast semantic search and response and hosted them on Azure with a custom backend web API built with .NET framework.`,
@@ -64,13 +63,13 @@ export const content = {
             img: '/willowtree.png',
         },
         {
-            role: "3D Team Member",
+            role: "3D Perception",
             company: "Buckeye Autodrive",
-            date: "January 2023 - February 2024",
+            date: "Jan '23 - Feb '24",
             description: `Ohio State's premiere Autodrive team aimed to develop a fully autonomous vehicle within the four year span of the SAE Autodrive Challenge amongst universities. 
             Worked on a multi classification image recognition ML model using Yolov8 and OpenCV to identify different types of traffic lights from a real-time camera feed on an autonomous vehicle while also minimizing model response latency.
             I also created a 3D dynamics module to get the real time speed, direction, and orientation of moving objects relative to our vehicle and integrated it into the pipeline.`,
-            stack: "Python, Docker, OpenCV, Yolov8",
+            stack: "Python, Docker, OpenCV",
             website: "https://sites.google.com/view/buckeyeautodrive/home",
             tag: 'autodrive',
             img: '/buckeye_autodrive.png'
@@ -81,33 +80,35 @@ export const content = {
         {
             name: "kubefs",
             date: "August 2024 - Present",
-            description: `a custom cli tool meant to automate the creation, testing, and deployment of full stack applications on to kubernetes clusters. It takes care of docker image creation, container management, and kuberenetes deployment with helm. 
-            It offers features such as dynamic host variables for intra-resource communication and support for numerous common frameworks including NextJS, Cassandra, Redis, and NestJs. 
-            Currently published on github andi installable through homebrew. Check out the github to learn more.
-            `,
+            description: `a cli tool meant to automate the creation, testing, and deployment of full stack applications onto kubernetes clusters`,
             stack: "Go, Kubernetes, Helm, Docker",
             github: "https://github.com/rahulmedicharla/kubefs",
             img: "/kubefs.png",
-            data: 'kubefs_demo.png'
+            data: 'kubefs_demo.png',
         },
         {
-            name: "generalized CV tracking",
-            date: 'April - May 2024',
-            description: `A generalized computer vision tracking algorithm that attempts to be rotation, scale, brightness, and background invariant 
-            using non ML based computer vision techniques. The algorithm primarily works by using inherent image characteristics and statistics-based algorithms to be generalized.
-            The program takes a source video and target image to search for and returns the center location of the tracked object.`,
-            stack: "Python, Scipy, OpenCV",
+            name:"freetrack",
+            date: "March - May 2024",
+            description: `an out-of-box algorithmic cv object tracking software that is natively brightness, scale, and rotation invariant`,
+            stack: "Python, OpenCV, Numpy, Pandas",
             github: "https://github.com/rahulmedicharla/Generalized-CV-Tracking-Algorithm",
-            img: "/cv_tracking.png",
-            data: 'cv_tracking_demo.png'
+            img: "/freetrack.png",
+            data: 'freetrack_demo.png'
+        },
+        {
+            name: "smart safety",
+            date: 'Sep - Nov 2023',
+            description: `hackathon - a mobile safety app that utilizes K-means on crime data & realtime crowd-sourcing to route users safely`,
+            stack: "TS, Python, React Native, Firebase, Scikit-Learn, Flask",
+            github: "https://github.com/rahulmedicharla/smart-safety",
+            live: "https://drive.google.com/file/d/1YNlhIwmHPmjs9tFJzJjEdlVHB5tY4T2R/view?usp=sharing",
+            img: "/smart_safety.png",
+            data: 'smart_safety_demo.png'
         },
         {
             name: "evolate",
             date: 'June - July 2023',
-            description: `evolate is a new data structure built to solve the problem of efficiency within search algorithms. 
-            Depending on a user's behavioral patterns, Linked Lists, Sequences, Hash Maps, or Binary Search Trees may be more efficient.
-            evolate is designed on a multi-modal node object and utilizing a custom Neural Network, evolate automatically tracks behavioral patterns such as insertion/deletion frequencies and search predictability to switch data structures thus optimizing efficiency.
-            `,
+            description: `a novel data structure powered by ML to enhance search alg performance by accounting for hidden behavioral patterns`,
             stack: "Python, Pytorch Neural Network",
             github: "https://github.com/rahulmedicharla/evolate",
             live: "https://colab.research.google.com/drive/1jwoxt-aZlwWB4daxqAiqQgNdPAIdaZV6?usp=sharing",
@@ -115,16 +116,23 @@ export const content = {
             data: 'evolate_demo.png'
         },
         {
+            name: "mood.ai",
+            date: "March - April 2023",
+            description: `a tool to capture memories stored as videos as AI generated art - parsed with ML`,
+            stack: "Python, React, Flask, OpenCV, ML",
+            live: "https://mood-ai-coral.vercel.app/",
+            github: "https://github.com/rahulmedicharla/mood.ai",
+            img: "/mood_ai.png",
+            data: 'mood_ai_demo.png'
+        },
+        {
             date: 'October 2022',
-            name: "Audio Studio (Hackathon)",
-            description: `Developed a custom speech to code IDE to make programming more accessible. Won 5th place out of 1000 annual participants. 
-            The program would take in natural language commands, transcribe it, and convert it to runnable python code. 
-            We created a nested recursive representation of the code with CFG's and outputted text onto the custom IDE that can run functional python code through voice commands.
-            `,
+            name: "audio studio",
+            description: `hackathon - a custom speech to code IDE - powered by ML - to convert spoken word into recursivly generated code`,
             stack: "Python, Speech Recognition, OOP",
             github: "https://github.com/rahulmedicharla/HackOhio2022",
             live: "https://youtu.be/uru5dw3NDaw",
-            img: "/default.png",
+            img: "/audio_studio.png",
             data: 'audio_studio_demo.png'
         },
     ],

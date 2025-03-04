@@ -1,9 +1,7 @@
 .activeExp{
     margin-top: 75px;
-    justify-content: center;
     animation: slide 0.5s ease-in-out;
 }
-
 @keyframes slide {
     0% {
         opacity: 0;
@@ -80,13 +78,14 @@ a:hover{
     cursor: pointer;
     background-color: #4D4D4D;
     border-radius: 10px;
-    transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
     flex-direction: column;
+    transition: all 0.3s ease-in-out;
 }
 
 .cardC:hover{
     background-color: #5E5E5E;
     transform: scale(1.05);
+    transition: transform 0.5s;
 }
 
 .cardImg{
@@ -121,7 +120,8 @@ a:hover{
     text-decoration: underline;
 }
 
-@media (max-width: 1200px){
+@media (max-width: 1199px){
+    /* Large */
     .activeExp{
         margin-top: 50px;
     }
@@ -160,66 +160,11 @@ a:hover{
     }
 
     .cardTitle{
-        font-size: 1rem;
-    }
-
-    .cardSub{
-        font-size: .8rem;
-    }
-
-    .cardStack{
-        font-size: .8rem;
-    }
-}
-
-
-@media (max-width: 900px) {
-    /* Change the breakpoint (576px) to your preferred size for mobile devices */
-    .activeExp{
-        margin-top: 20px;
-        align-items: center;
-    }
-
-    .expImage{
-        border-radius: 25px;
-        width: 125px;
-    }
-
-    .expTitle{
-        font-size: 1rem;
-    }
-
-    .expDes{
-        margin-top: 15px;
-        text-align: center;
-        font-size: .8rem;
-        margin-left: 10px;
-    }
-
-    .cards{
-        margin-top: 50px;
-        gap: 0px;
-    }
-
-    .cardImg{
-        width: 100px;
-        border-radius: 15px;
-        margin: 15px;
-    }
-
-    .cardContent{
-        margin: 15px;
-        align-content: center;
-        justify-content: center;
-        width: 100%;
-    }
-
-    .cardTitle{
         font-size: .8rem;
     }
 
     .cardSub{
-        font-size: .6rem;
+        font-size: .7rem;
     }
 
     .cardStack{
@@ -227,8 +172,10 @@ a:hover{
     }
 }
 
-@media (max-width: 576px) {
-    /* Change the breakpoint (576px) to your preferred size for mobile devices */
+
+
+@media (max-width: 991px) {
+    /* XS & Small & Medium */
     .activeExp{
         margin-top: 40px;
     }

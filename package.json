@@ -10,16 +10,18 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@codaworks/react-glow": "^1.0.6",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
     "@mui/icons-material": "^6.4.6",
     "@mui/material": "^6.4.6",
     "firebase": "^11.4.0",
+    "motion": "^12.4.10",
     "react": "^19.0.0",
     "react-bootstrap": "^2.10.9",
     "react-dom": "^19.0.0",
     "react-scroll": "^1.9.3",
-    "react-transition-group": "^4.4.5"
+    "swiper": "^11.2.4"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",

@@ -8,7 +8,7 @@
 }
 
 .title{
-    font-size: 4.5rem;
+    font-size: 3.2rem;
 }
 
 .name{
@@ -16,11 +16,11 @@
 }
 
 .description-big{
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 .description-small{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .role_color{
@@ -35,7 +35,7 @@
 .hoverButton{
     width: fit-content;
     padding: 15px 30px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     background-color: #4D4D4D;
     color: #B3C3FF;
     border-radius: 6px;
@@ -75,13 +75,14 @@ a:hover{
     }
 }
 
-@media (max-width: 1200px){
+@media (max-width: 1199px){
+    /* Large  */
     .landing{
         font-weight: 500;
     }
 
     .title{
-        font-size: 3.5rem;
+        font-size: 2.5rem;
     }
 
     .name{
@@ -89,11 +90,11 @@ a:hover{
     }
 
     .description-big{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .description-small{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .spacing{
@@ -102,7 +103,7 @@ a:hover{
 
     .hoverButton{
         padding: 10px 20px;
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     #role {
@@ -112,14 +113,14 @@ a:hover{
 }
 
 
-@media (max-width: 900px) {
-    /* Change the breakpoint (576px) to your preferred size for mobile devices */
+@media (max-width: 991px) {
+    /* Medium */
     .landing{
         font-weight: 500;
     }
     
     .title{
-        font-size: 3.1rem;
+        font-size: 2.3rem;
     }
     
     .name{
@@ -127,11 +128,11 @@ a:hover{
     }
     
     .description-big{
-        font-size: 1.6rem;
+        font-size: 1.2rem;
     }
 
     .description-small{
-        font-size: 1.2rem;
+        font-size: .9rem;
     }
     
     .spacing{
@@ -140,7 +141,7 @@ a:hover{
     
     .hoverButton{
         padding: 10px 20px;
-        font-size: 1.2rem;
+        font-size: .9rem;
     }
 
     #role {
@@ -150,10 +151,47 @@ a:hover{
 
 }
 
-@media (max-width: 576px) {
-    /* Change the breakpoint (576px) to your preferred size for mobile devices */
+@media (max-width: 767px) {
+    /* Small */
     .landing{
-        font-weight: 600;
+        font-weight: 400;
+    }
+    
+    .title{
+        font-size: 1.5rem;
+    }
+    
+    .name{
+        color: #6A6AE4
+    }
+    
+    .description-big{
+        font-size: .8rem;
+    }
+
+    .description-small{
+        font-size: .6rem;
+    }
+    
+    .spacing{
+        margin: 25px 0px;
+    }
+    
+    .hoverButton{
+        padding: 10px 15px;
+        font-size: .7rem;
+    }
+
+    #role {
+        width: 41ch;
+        border-right: 2px solid #6A6AE4;
+    }
+}
+
+@media (max-width: 575px) {
+    /* XS  */
+    .landing{
+        font-weight: 400;
     }
     
     .title{
@@ -169,7 +207,7 @@ a:hover{
     }
 
     .description-small{
-        font-size: .8rem;
+        font-size: .7rem;
     }
     
     .spacing{

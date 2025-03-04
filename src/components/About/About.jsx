@@ -6,11 +6,13 @@ export default function About({links, about, tag, leadership, skills}){
     return(
         <>
             <Row id={tag} className='mt-5'>
-                <Col xs = {1} md={1} lg={1}></Col>
-                <Col xs={10} md={10} lg={9} className='d-flex align-items-center justify-content-flex-start'>
+            {/* <Col xs={2} md={1} lg={2} xl={2}></Col> */}
+                <Col xs = {1} md={1} lg={2} xl={2}></Col>
+                <Col xs={10} md={10} lg={8} xl={8} className='d-flex align-items-center justify-content-flex-start'>
                     <span className='text sectionTitle'>/{tag}</span>
                     <span className='hl'></span>
-                </Col> 
+                </Col>
+                <Col xs = {1} md={1} lg={2} xl={2}></Col> 
             </Row>
             <Row>
                 <Col xs={11} md={11} lg={10} className="d-flex align-items-center flex-row-reverse justify-content-evenly">
@@ -26,7 +28,7 @@ export default function About({links, about, tag, leadership, skills}){
                 <Col xs={12} md={3} lg={2} className=" d-flex justify-content-center mb-3">
                     <Image className="headshot" src="/headshot.jpg" width={250} fluid/>
                 </Col>
-                <Col xs={12} md={8} lg={6} className="d-flex mt-3">
+                <Col xs={12} sm={10} md={6} lg={6} className="d-flex mt-3">
                     <p className="text about">{about}
 
                     <br></br>
@@ -34,14 +36,14 @@ export default function About({links, about, tag, leadership, skills}){
                     
                     {leadership.map((item) => {
                             return (
-                                <b key={item.title} className="cardSub text underline"><a rel="noreferrer" target="_blank" style={{color:'white'}} href={item.link}>{item.title}</a><br/></b>
+                                <b key={item.title} className="text underline"><a rel="noreferrer" target="_blank" style={{color:'white'}} href={item.link}>{item.title}</a><br/></b>
                             )
                         })}
                     </p>
                 </Col>
             </Row>
             <Row className="d-flex align-items-center justify-content-center" >
-                <Col xs={12} md={12} lg={10} className="d-flex align-items-center justify-content-center">
+                <Col xs={10} md={10} lg={8} className="d-flex align-items-center justify-content-center">
                     {skills.map((skill, index) => {
                         return(
                             <div key={index} className="d-flex flex-row align-items-center justify-content-center skillsC">

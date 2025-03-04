@@ -14,24 +14,19 @@ import Explorations from './components/Explorations/Explorations';
 function App() {
   return (
     <Container fluid>
-      <Row id={content.anchorTags[0]}>
-        <Col xs={12} md={12} lg={10} className='d-flex justify-content-center'>
+      <Row id={content.anchorTags[0]} className='d-flex justify-content-center align-items-center mainContent'>
+        <Col xs={6} sm={3} md={4} lg={3} xl={3} className='d-flex align-items-center justify-content-center order-sm-2 order-xl-2'>
           <Header/>
         </Col>
-      </Row>
-      <Row className='mainContent'>
-        <Col xs={12} md={9} lg={7} className='d-flex align-items-center justify-content-center'>
-          <Landing name={content.name} description={content.description} role={content.role} aboutTag = {content.anchorTags[1]}/>
+        <Col xs={12} sm={6} md={6} lg={6} xl={6} className='d-flex align-items-center justify-content-center order-sm-1 order-xl-1'>
+          <Landing name={content.name} description={content.description} role={content.role} aboutTag = {content.anchorTags[1]}/>        
         </Col>
-        <Col xs={0} md={3} lg={3} className='d-flex align-items-center justify-content-center'>
-          <Image src="/logo.png" className='mainLogoContainer' fluid width={600} />
-        </Col>
-        <Col xs={0} md={0} lg={2}className='d-flex justify-content-center'>
+        <Col xs={0} sm={0} md={0} lg={0} xl={2} className='d-flex order-xl-3 justify-content-center'>
           <Navigation anchorTags = {content.anchorTags} links = {content.links}/>
         </Col>
       </Row>
       <Row>
-        <Col xs={12} md={12} lg={10} className='d-flex justify-content-center'>
+        <Col xs={12} md={12} lg={12} className='d-flex justify-content-center'>
           <ScrollDown tag = {content.anchorTags[1]}/>
         </Col>
       </Row>

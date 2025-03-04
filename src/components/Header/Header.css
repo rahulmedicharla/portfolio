@@ -1,15 +1,19 @@
 .logo{
     animation: slide 0.5s ease-in-out;
-    display: none;
 }
 
-@media (max-width: 900px) {
+.header{
+    transition: all 0.3s ease-in-out;
 }
 
-@media (max-width: 576px) {
+.header:hover{
+    transform: scale(1.1);
+}
+
+@media (max-width: 767px) {
     .logo{
         display: inline;
-        width: 175px;
+        width: "175px";
         margin-top: 50px;
     }
 }
