@@ -28,14 +28,14 @@ export default function Creations({tag, creations}){
                 <Col xs={12} sm={12} md={12} lg={12} xl={2} className='d-flex justify-content-center align-items-center order-3 order-xl-2 flex-wrap creationImages'>
                     {creations.map((item, index) => {
                         return (
-                            <Col xs= {4} sm={4} md={4} lg={4} xl={12} key={index}>
+                            <Col xs= {5} sm={4} md={4} lg={3} xl={12} key={index} className=' p-sm-1 p-md-2 p-lg-2 p-xl-0' style={{padding:"0", margin:"0"}}>
                                 <Image src={item.img} className='creationImage' fluid onClick={() => {swiper.slideTo(index)}} />
                             </Col>
                         )
                     })}
                 </Col>
                 <Col xs={12} sm={12}md={12} lg={12} xl={6} className='d-flex align-items-center justify-content-center order-2 order-xl-3'>
-                    <Col xs={10} sm={10} md={9} lg={8} xl={11}>
+                    <Col xs={12} sm={10} md={9} lg={8} xl={11}>
                         <Swiper
                             onSwiper={setSwiper}
                             pagination={{

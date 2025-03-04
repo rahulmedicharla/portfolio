@@ -187,11 +187,12 @@
 
     .creationImage{
         border-radius: 4px;
+        margin:0
     }
 
     .creationImages{
         margin-top: 10px;
-        gap:5px;
+        /* padding: 5px; */
     }
 
     .mainImage{
