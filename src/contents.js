@@ -58,7 +58,7 @@ export const content = {
             Worked with a cross functional team of developers, designers, and PM's to develop a customer support chat bot. 
             I utilized large language models, vector embeddings, and a SQL database to develop a custom search feature to provide fast semantic search and response and hosted them on Azure with a custom backend web API built with .NET framework.`,
             stack: "React, C#, SQL, .NET, Azure",
-            website: "https://willowtree.ai/",
+            website: "https://willowtreeapps.com/",
             tag: 'willowtree',
             img: '/willowtree.png',
         },
