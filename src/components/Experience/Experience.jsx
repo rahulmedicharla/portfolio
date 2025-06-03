@@ -38,6 +38,11 @@ export default function Experience({tag, exp}){
                                 <span className='expTitle text'>{exp[active].role} @ <a href={exp[active].website} target="_blank" rel="noreferrer" className='text expTitle underline'>{exp[active].company}</a></span><br/>
                                 <span className='expDate text'>{exp[active].date}</span><br/>
                                 {exp[active].description}<br/>
+                                {exp[active].link && (
+                                    <>
+                                        <span className='expLink text'><a href={exp[active].link.uri} target="_blank" rel="noreferrer" className='text expLink underline'>{exp[active].link.title}</a></span><br/>
+                                    </>
+                                )}
                                 <span className='expStack text'><i>Stack: {exp[active].stack}</i></span>
                             </div>
                         </Col>

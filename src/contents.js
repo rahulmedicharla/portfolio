@@ -10,33 +10,33 @@ export const content = {
         base: "incoming swe @ ",
         title: 'Capital One'
     }, {
-        base: "cs student @ ",
+        base: "prev cs student @ ",
         title: "osu"
     }],
     role: "i like designing, creating, and exploring things.",
-    about: `Hey everyone!, I'm Rahul Medicharla, a cs student at The Ohio State University graduating class of '25. 
+    about: `Hey everyone!, I'm Rahul Medicharla, a recent grad from The Ohio State University & incoming SWE at Capital One. 
     I love learning about new technologies, creating new softwares, and exploring new ideas. 
     I'm also a big supporter of the intersection of healthcare and technology, autonomous driving, and a big foodie :). 
-    Currently, I have experience in conducting research at my university, supporting cloud infrastructure, building industry scale applications, and I've been getting into the world of ML and AI.
+    Currently, I have experience in conducting ML/AI research at universities, supporting cloud infrastructure, and building industry scale applications.
     `,
     leadership: [
-        {
-            title: 'Cofounder & President of OSU\'s Cooking Club',
-            link: "https://activities.osu.edu/involvement/student_organizations/find_a_student_org/?i=51980e70-1887-4ec0-8849-396dc22a9f52&l=C&c=all&page=10"
-        },
     ],
-    skills: ["JS, Python, Go, Java", "TS, React, .NET, Flask", "Kuberenetes, AWS, Azure, GCP, Docker", "Open CV, Yolov8, Pytorch"],
+    skills: ["JS, Python, Go, Java", "TS, React, .NET, Flask", "Kuberenetes, AWS, Azure, GCP, Docker", "Pytorch, Tensorflow, Weights & Biases"],
     experience: [
         {
             role: "UG Researcher",
             company: "PCVLAB, OSU",
-            date: "Jan '24 - Present",
-            description: `Selected to be a part of the Undergraduate Research Distinction Program at OSU where I am conducting research under the Photogrammetric Computer Vision Lab & culminating my findings into a defended thesis. 
-            I am building a model to help medical institutions flag potential stroke patients by identifying anomalies on facial keypoints. We aim to build a SOTA emotion classification model on the AffectNet dataset and publish a paper.`,
-            stack: "PyTorch, Transformers, OpenCV",
+            date: "Jan '24 - May '25",
+            description: `Selected to be apart of the highly selective Undergraduate Research Distinction Program at OSU to conduct ML research under the Photogrammetric Computer Vision Lab & culminate my findings into a published thesis. 
+            I built MotivNet, a state-of-the-art emotion classification model following ViT-MAE based feature extarction & Attention-based classification to help medical institutions flag potential stroke patients by identifying anomalies on facial keypoints.`,
+            stack: "PyTorch, Weights & Biases, Pandas",
             website: "https://u.osu.edu/pcvlab/",
             tag: 'pcvlab',
-            img: '/osu.png'
+            img: '/osu.png',
+            link: {
+                uri: "https://kb.osu.edu/handle/1811/105724",
+                title: "MotivNet: Emotion Classification from Facial Images as a Meta-Sapiens Task"
+            }
         },
         {
             role: "SWE Intern (TIP)",
