@@ -34,7 +34,7 @@ export const content = {
             tag: 'pcvlab',
             img: '/osu.png',
             link: {
-                uri: "https://kb.osu.edu/handle/1811/105724",
+                uri: "/thesis.pdf",
                 title: "MotivNet: Emotion Classification from Facial Images as a Meta-Sapiens Task"
             }
         },
