@@ -29,7 +29,7 @@ export const content = {
             date: "Jan '24 - May '25",
             description: `Selected to be apart of the highly selective Undergraduate Research Distinction Program at OSU to conduct ML research under the Photogrammetric Computer Vision Lab & culminate my findings into a published thesis. 
             I built MotivNet, a state-of-the-art emotion classification model following ViT-MAE based feature extarction & Attention-based classification to help medical institutions flag potential stroke patients by identifying anomalies on facial keypoints.`,
-            stack: "PyTorch, Weights & Biases, Pandas",
+            stack: "PyTorch, W&B, Pandas, OpenCV",
             website: "https://u.osu.edu/pcvlab/",
             tag: 'pcvlab',
             img: '/osu.png',
