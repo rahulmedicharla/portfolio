@@ -7,14 +7,14 @@ export const content = {
     },
     name: "Rahul Medicharla",
     description: [{
-        base: "incoming swe @ ",
+        base: "SWE @ ",
         title: 'Capital One'
     }, {
-        base: "prev cs student @ ",
+        base: "prev student @ ",
         title: "osu"
     }],
     role: "i like designing, creating, and exploring things.",
-    about: `Hey everyone!, I'm Rahul Medicharla, a recent grad from The Ohio State University & incoming SWE at Capital One. 
+    about: `Hey everyone!, I'm Rahul Medicharla, a recent grad from The Ohio State University & SWE at Capital One. 
     I love learning about new technologies, creating new softwares, and exploring new ideas. 
     I'm also a big supporter of the intersection of healthcare and technology, autonomous driving, and a big foodie :). 
     Currently, I have experience in conducting ML/AI research at universities, supporting cloud infrastructure, and building industry scale applications.
@@ -23,6 +23,17 @@ export const content = {
     ],
     skills: ["JS, Python, Go, Java", "TS, React, .NET, Flask", "Kuberenetes, AWS, Azure, GCP, Docker", "Pytorch, Tensorflow, Weights & Biases"],
     experience: [
+        {
+            role: "Associate SWE",
+            company: "Capital One",
+            date: "Aug '25 - current",
+            description: `Developing a critical modular testing application from the ground up to verify the results of an in-house financial core (in development) by parity testing the outputs from legacy vendors based on various test cases. 
+            Utilizing AWS Glue and Spark to perform large scale distributed ETL workloads in a timely manner.`,
+            stack: "Python, AWS Glue, Spark, CDK",
+            website: "https://capitalone.com",
+            tag: 'capitalone',
+            img: '/capitalone.jpg'
+        },
         {
             role: "UG Researcher",
             company: "PCVLAB, OSU",
@@ -47,7 +58,7 @@ export const content = {
             in deployed pods for vulnerabilities found in a CVE Database and notifying them to internal stakeholders.`,
             stack: "Go, AWS, Kubernetes, Docker",
             website: "https://www.capitalone.com/",
-            tag: 'capitalone',
+            tag: 'capitalone-intern',
             img: '/capitalone.jpg'
         },
         {
@@ -62,19 +73,6 @@ export const content = {
             tag: 'willowtree',
             img: '/willowtree.png',
         },
-        {
-            role: "3D Perception",
-            company: "Buckeye Autodrive",
-            date: "Jan '23 - Feb '24",
-            description: `Ohio State's premiere Autodrive team aimed to develop a fully autonomous vehicle within the four year span of the SAE Autodrive Challenge amongst universities. 
-            Worked on a multi classification image recognition ML model using Yolov8 and OpenCV to identify different types of traffic lights from a real-time camera feed on an autonomous vehicle while also minimizing model response latency.
-            I also created a 3D dynamics module to get the real time speed, direction, and orientation of moving objects relative to our vehicle and integrated it into the pipeline.`,
-            stack: "Python, Docker, OpenCV",
-            website: "https://sites.google.com/view/buckeyeautodrive/home",
-            tag: 'autodrive',
-            img: '/buckeye_autodrive.png'
-        },
-
     ],
     creations: [
         {
