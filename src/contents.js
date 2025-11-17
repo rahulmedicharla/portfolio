@@ -7,14 +7,17 @@ export const content = {
     },
     name: "Rahul Medicharla",
     description: [{
-        base: "SWE @ ",
+        base: "swe @ ",
         title: 'Capital One'
     }, {
-        base: "prev student @ ",
+        base: "ml masters student @ ",
+        title: "gt"
+    }, {
+        base: "prev cs student @ ",
         title: "osu"
     }],
     role: "i like designing, creating, and exploring things.",
-    about: `Hey everyone!, I'm Rahul Medicharla, a recent grad from The Ohio State University & SWE at Capital One. 
+    about: `Hey everyone!, I'm Rahul Medicharla, a recent grad from The Ohio State University & a current masters student at GT. I also do sofware at Capital One. 
     I love learning about new technologies, creating new softwares, and exploring new ideas. 
     I'm also a big supporter of the intersection of healthcare and technology, autonomous driving, and a big foodie :). 
     Currently, I have experience in conducting ML/AI research at universities, supporting cloud infrastructure, and building industry scale applications.
@@ -24,13 +27,12 @@ export const content = {
     skills: ["JS, Python, Go, Java", "TS, React, .NET, Flask", "Kuberenetes, AWS, Azure, GCP, Docker", "Pytorch, Tensorflow, Weights & Biases"],
     experience: [
         {
-            role: "Associate SWE",
+            role: "Associate Software Engineer",
             company: "Capital One",
-            date: "Aug '25 - current",
-            description: `Developing a critical modular testing application from the ground up to verify the results of an in-house financial core (in development) by parity testing the outputs from legacy vendors based on various test cases. 
-            Utilizing AWS Glue and Spark to perform large scale distributed ETL workloads in a timely manner.`,
-            stack: "Python, AWS Glue, Spark, CDK",
-            website: "https://capitalone.com",
+            date: "Aug '25 - Present",
+            description: "buidling out performant testing infrastructure and developer tools to support the development of a internal financial core",
+            stack: "Python, Scala, AWS, ECS",
+            website: "https://www.capitalone.com/",
             tag: 'capitalone',
             img: '/capitalone.jpg'
         },
