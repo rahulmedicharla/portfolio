@@ -15,11 +15,11 @@ function App() {
   return (
     <Container fluid>
       <Row id={content.anchorTags[0]} className='d-flex justify-content-center align-items-center mainContent'>
-        <Col xs={6} sm={3} md={4} lg={3} xl={5} className='d-flex align-items-center justify-content-left order-sm-2 order-xl-3'>
+        <Col xs={8} sm={6} md={5} lg={5} xl={5} className='d-flex align-items-center justify-content-left order-sm-2 order-xl-3'>
           <Header/>
         </Col>
-        <Col xs={0} sm ={0} md ={0} xl={2} className='order-xl-1'></Col>
-        <Col xs={12} sm={6} md={6} lg={6} xl={3} className='d-flex align-items-center justify-content-center order-sm-1 order-xl-2'>
+        <Col xs={0} sm ={0} md ={0} lg={0} xl={2} className='order-xl-1'></Col>
+        <Col xs={12} sm={6} md={6} lg={5} xl={3} className='d-flex align-items-center justify-content-center order-sm-1 order-xl-2'>
           <Landing name={content.name} description={content.description} role={content.role} aboutTag = {content.anchorTags[1]}/>        
         </Col>
         <Col xs={0} sm={0} md={0} lg={0} xl={2} className='d-flex order-xl-3 justify-content-center'>
