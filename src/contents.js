@@ -35,12 +35,23 @@ export const content = {
   ],
   experience: [
     {
-      role: "Associate Software Engineer",
+      role: "Software Engineer 2",
       company: "Capital One",
-      date: "Aug '25 - Present",
+      date: "Aug '26 - Present",
+      description:
+        "working a greenfield entertainment portal",
+        stack: "AWS Cloudfront/Lambda, TS, Go",
+      website: "https://www.capitalone.com/",
+      tag: "capitalone",
+      img: "/capitalone.jpg",
+    },
+    {
+      role: "Software Engineer 1",
+      company: "Capital One",
+      date: "Aug '25 - Aug '26",
       description:
         "building out various testing tools & infrastructure to support the development of a internal financial core. recently built an automated shadow validation service that verifies release candidates for automated CI/CD pipelines",
-      stack: "K6, Aws Kinesis/Lambda/DDB, Snowflake",
+      stack: "AWS Lambda/DDB/SQS/Kinesis, Go",
       website: "https://www.capitalone.com/",
       tag: "capitalone",
       img: "/capitalone.jpg",
@@ -61,30 +72,30 @@ export const content = {
           "MotivNet: Emotion Classification from Facial Images as a Meta-Sapiens Task",
       },
     },
-    {
-      role: "SWE Intern (TIP)",
-      company: "Capital One",
-      date: "June - Aug '24",
-      description: `Placed on Enterprise Technologies LOB; Extending Amazon EKS' Control Plane functionality by
-            developing a Kubernetes-native operator to assist with vulnerability risk mitigation in over 100 live Kubernetes clusters by scanning Docker containers
-            in deployed pods for vulnerabilities found in a CVE Database and notifying them to internal stakeholders.`,
-      stack: "Go, AWS, Kubernetes, Docker",
-      website: "https://www.capitalone.com/",
-      tag: "capitalone-intern",
-      img: "/capitalone.jpg",
-    },
-    {
-      role: "SWE Intern",
-      company: "WillowTree",
-      date: "May - Aug '23",
-      description: `Interned at a software consulting company to develop and deploy mobile and web applications to clients.
-            Worked with a cross functional team of developers, designers, and PM's to develop a customer support chat bot.
-            I utilized large language models, vector embeddings, and a SQL database to develop a custom search feature to provide fast semantic search and response and hosted them on Azure with a custom backend web API built with .NET framework.`,
-      stack: "React, C#, SQL, .NET, Azure",
-      website: "https://willowtreeapps.com/",
-      tag: "willowtree",
-      img: "/willowtree.png",
-    },
+    // {
+    //   role: "SWE Intern (TIP)",
+    //   company: "Capital One",
+    //   date: "June - Aug '24",
+    //   description: `Placed on Enterprise Technologies LOB; Extending Amazon EKS' Control Plane functionality by
+    //         developing a Kubernetes-native operator to assist with vulnerability risk mitigation in over 100 live Kubernetes clusters by scanning Docker containers
+    //         in deployed pods for vulnerabilities found in a CVE Database and notifying them to internal stakeholders.`,
+    //   stack: "Go, AWS, Kubernetes, Docker",
+    //   website: "https://www.capitalone.com/",
+    //   tag: "capitalone-intern",
+    //   img: "/capitalone.jpg",
+    // },
+    // {
+    //   role: "SWE Intern",
+    //   company: "WillowTree",
+    //   date: "May - Aug '23",
+    //   description: `Interned at a software consulting company to develop and deploy mobile and web applications to clients.
+    //         Worked with a cross functional team of developers, designers, and PM's to develop a customer support chat bot.
+    //         I utilized large language models, vector embeddings, and a SQL database to develop a custom search feature to provide fast semantic search and response and hosted them on Azure with a custom backend web API built with .NET framework.`,
+    //   stack: "React, C#, SQL, .NET, Azure",
+    //   website: "https://willowtreeapps.com/",
+    //   tag: "willowtree",
+    //   img: "/willowtree.png",
+    // },
   ],
   creations: [
     {
